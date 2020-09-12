@@ -43,7 +43,33 @@ window.addEventListener('load', () => {
 				happeningStickers: ['geyser_giant_slalom', 'tornado_giant_slalom', 'headwind_giant_slalom', 'banana_jump_giant_slalom', 'ultra_low_flight_giant_slalom',
 					'ayumis_fan_giant_slalom', 'jizu_giant_slalom', 'super_ball_giant_slalom', 'lightning_strike_giant_slalom', 'banana_slide_giant_slalom', 'atmospheric_entry_giant_slalom',
 					'tailwind_giant_slalom', 'ninons_explosive_ninja_giant_slalom', 'rocket_giant_slalom', 'belly_slide_giant_slalom', 'mesaruthimu_giant_slalom',
-					'akudaikan_statue_giant_slalom', 'downpour_giant_slalom', 'giddy_giant_slalom', 'drill_giant_slalom']
+					'akudaikan_statue_giant_slalom', 'downpour_giant_slalom', 'giddy_giant_slalom', 'drill_giant_slalom'],
+				shiritoriWords: ['リンゴ', 'ゴリラ', 'ラッパ', 'パイナップル', 'ルビー', 'ビールっぽいもの', 'ゆみや', 'おんぷ', 'えのぐ', 'けん', 'めがね', 'むしめがね', 'にく', 'つき',
+					'こうもり', 'とり', 'くつ', 'ねこ', 'きんぎょ', 'ねずみ', 'たまご', 'ふね', 'ぎゅうにゅう', 'チョコレート', 'どんぐり', 'いちご', 'とら', 'ぬいぐるみ', 'ばくだん',
+					'すいか', 'うま', 'いす', 'うみ', 'やどかり', 'ふえ', 'ほん', 'さかな', 'ツリー', 'あめ', 'ハンマー', 'ほし', 'ぼうし', 'カップ', 'いぬ', 'はた', 'ケーキ', 'マイク',
+					'くちべに', 'もち', 'ようせい', 'かさ', 'さいころ', 'てがみ', 'ブドウ', 'ひつじ', 'とうふ', 'あひる', 'とんぼ', 'はっぱ', 'ゆびわ', 'なわ', 'たて', 'おかね',
+					'プリンアラモード', 'ネックレス', 'いなほ', 'しょうゆ', 'ベルトコンベア', 'シャンデリア', 'しお', 'うずしお', 'つりざお', 'なべ', 'シーソー', 'ふで', 'きんトレ', 'おばけ',
+					'ヒヨリ', 'ユイ', 'レイ', 'ミソギ', 'マツリ', 'アカリ', 'ミヤコ', 'ユキ', 'アンナ', 'マホ', 'リノ', 'ハツネ', 'ナナカ', 'カスミ', 'ミサト', 'スズナ', 'カオリ', 'イオ',
+					'ミミ', 'クルミ', 'ヨリ', 'アヤネ', 'スズメ', 'リン', 'エリコ', 'サレン', 'ノゾミ', 'ニノン', 'シノブ', 'アキノ', 'マヒル', 'ユカリ', 'キョウカ', 'トモ', 'シオリ',
+					'アオイ', 'チカ', 'マコト', 'イリヤ', 'クウカ', 'タマキ', 'ジュン', 'ミフユ', 'シズル', 'ミサキ', 'ミツキ', 'リマ', 'モニカ', 'ツムギ', 'アユミ', 'ルカ', 'ジータ',
+					'ペコリーヌ', 'コッコロ', 'キャル', 'ムイミ', 'アリサ', 'ネネカ', 'クリスティーナ', 'イノリ', 'カヤ', 'ホマレ', 'クロエ', 'チエル', 'ユニ'],
+				shiritoriStickers: ['apple_shiritori', 'gorilla_shiritori', 'trumpet_shiritori', 'pineapple_shiritori', 'ruby_shiritori', 'beer_shiritori', 'bow_and_row_shiritori',
+					'note_shiritori', 'paint_shiritori', 'sword_shiritori', 'glasses_shiritori', 'loupe_shiritori', 'meat_shiritori', 'moon_shiritori', 'bat_shiritori', 'bird_shiritori',
+					'shoes_shiritori', 'cat_shiritori', 'goldfish_shiritori', 'mouse_shiritori', 'egg_shiritori', 'ship_shiritori', 'milk_shiritori', 'chocolate_shiritori', 'acorn_shiritori',
+					'strawberry_shiritori', 'tiger_shiritori', 'stuffed_animal_shiritori', 'bomb_shiritori', 'watermelon_shiritori', 'horse_shiritori', 'chair_shiritori', 'sea_shiritori',
+					'hermit_crab_shiritori', 'whistle_shiritori', 'book_shiritori', 'fish_shiritori', 'tree_shiritori', 'candy_shiritori', 'hammer_shiritori', 'star_shiritori', 'hat_shiritori',
+					'cup_shiritori', 'dog_shiritori', 'flag_shiritori', 'cake_shiritori', 'microphone_shiritori', 'lipstick_shiritori', 'mochi_shiritori', 'fairy_shiritori', 'umbrella_shiritori',
+					'dice_shiritori', 'letter_shiritori', 'grape_shiritori', 'sheep_shiritori', 'tofu_shiritori', 'duck_shiritori', 'dragonfly_shiritori', 'leaf_shiritori', 'ring_shiritori',
+					'rope_shiritori', 'shield_shiritori', 'money_shiritori', 'pudding_shiritori', 'necklace_shiritori', 'rice_ear_shiritori', 'soy_sauce_shiritori', 'belt_conveyor_shiritori',
+					'chandelier_shiritori', 'salt_shiritori', 'whirlpool_shiritori', 'rod_shiritori', 'pot_shiritori', 'seesaw_shiritori', 'brush_shiritori', 'work_out_shiritori',
+					'ghost_shiritori', 'hiyori_shiritori', 'yui_shiritori', 'rei_shiritori', 'misogi_shiritori', 'matsuri_shiritori', 'akari_shiritori', 'miyako_shiritori', 'yuki_shiritori',
+					'anna_shiritori', 'maho_shiritori', 'rino_shiritori', 'hatsune_shiritori', 'nanaka_shiritori', 'kasumi_shiritori', 'misato_shiritori', 'suzuna_shiritori', 'kaori_shiritori',
+					'io_shiritori', 'mimi_shiritori', 'kurumi_shiritori', 'yori_shiritori', 'ayane_shiritori', 'suzume_shiritori', 'rin_shiritori', 'eriko_shiritori', 'saren_shiritori',
+					'nozomi_shiritori', 'ninon_shiritori', 'shinobu_shiritori', 'akino_shiritori', 'mahiru_shiritori', 'yukari_shiritori', 'kyouka_shiritori', 'tomo_shiritori', 'shiori_shiritori',
+					'aoi_shiritori', 'chika_shiritori', 'makoto_shiritori', 'iriya_shiritori', 'kuuka_shiritori', 'tamaki_shiritori', 'jun_shiritori', 'mihuyu_shiritori', 'shizuru_shiritori',
+					'misaki_shiritori', 'mitsuki_shiritori', 'rima_shiritori', 'monika_shiritori', 'tsumugi_shiritori', 'ayumi_shiritori', 'ruka_shiritori', 'jita_shiritori', 'peko_shiritori',
+					'kokkoro_shiritori', 'kyaru_shiritori', 'muimi_shiritori', 'arisa_shiritori', 'neneka_shiritori', 'kurisu_shiritori', 'inori_shiritori', 'kaya_shiritori', 'homare_shiritori',
+					'kuroe_shiritori', 'chieru_shiritori', 'yuni_shiritori']
 			}
 		},
 		methods: {
@@ -91,6 +117,7 @@ window.addEventListener('load', () => {
 					<li><a href="#">思い出アルバム</a></li>
 					<li><a href="#">お兄ちゃん争奪</a></li>
 					<li><a href="#">クウカ大回転</a></li>
+					<li><a href="#">しりとりドラゴンズ</a></li>
 				</ul>
 				<ul class="uk-switcher">
 					<li>
@@ -142,6 +169,16 @@ window.addEventListener('load', () => {
 								<div><img v-bind:id="happeningStickers[i]" v-bind:data-src="'img/' + happeningStickers[i] + '.png'" v-bind:alt="happeningName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(happeningStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(happeningStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+							<div v-for="(shiritoriWord, i) in shiritoriWords">
+								<div class="uk-text-bold uk-margin-small-bottom">{{shiritoriWord}}</div>
+								<div><img v-bind:id="shiritoriStickers[i]" v-bind:data-src="'img/' + shiritoriStickers[i] + '.png'" v-bind:alt="shiritoriWord" uk-img></div>
+								<div v-if="clipboardImpled"><button v-on:click="copyImage(shiritoriStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+								<div><button v-on:click="copyLink(shiritoriStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
 							</div>
 						</div>
 					</li>
