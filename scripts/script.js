@@ -36,6 +36,8 @@ window.addEventListener('load', () => {
 					'mitsuki_album', 'mihuyu_album', 'mimi_album', 'miyako_album', 'muimi_album', 'monika_album', 'yui_album', 'yui_princess_album', 'yukari_album', 'yuki_album',
 					'yuni_album', 'yori_album', 'rabirisuta_album', 'rino_album', 'rino_wonder_album', 'rima_album', 'rin_album', 'rin_ranger_album', 'ruu_album', 'ruka_album',
 					'runa_album', 'rei_album'],
+				cacaoNames: ['普通のカカオ', '完熟カカオ', '極上カカオ'],
+				cacaoStickers: ['ordinary_cacao_valentine', 'ripe_cacao_valentine', 'best_cacao_valentine'],
 				happeningNames: ['間欠泉', 'トルネード', '向かい風', 'バナナジャンプ', '超低空飛行', 'アユミのうちわ',  'ジズ', 'スーパーボール', '落雷', 'バナナスライド', '成層圏突入',
 					'追い風', 'ニノンの爆裂忍法', 'ロケット', '腹すべり', 'メサルティム', 'アクダイカン像', '土砂降り雨', '目回し', 'ドリル'],
 				happeningStickers: ['geyser_giant_slalom', 'tornado_giant_slalom', 'headwind_giant_slalom', 'banana_jump_giant_slalom', 'ultra_low_flight_giant_slalom',
@@ -87,6 +89,7 @@ window.addEventListener('load', () => {
 					<li><a href="#">クラチャ</a></li>
 					<li><a href="#">ギルドハウス</a></li>
 					<li><a href="#">思い出アルバム</a></li>
+					<li><a href="#">お兄ちゃん争奪</a></li>
 					<li><a href="#">クウカ大回転</a></li>
 				</ul>
 				<ul class="uk-switcher">
@@ -94,7 +97,7 @@ window.addEventListener('load', () => {
 						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(clanChatName, i) in clanChatNames">
 								<div class="uk-text-bold uk-margin-small-bottom">{{clanChatName}}</div>
-								<div><img class="clan-chat-sticker" v-bind:id="clanChatStikcers[i]" v-bind:data-src="'img/' + clanChatStikcers[i] + '.png'" v-bind:alt="clanChatName" uk-img></div>
+								<div><img v-bind:id="clanChatStikcers[i]" v-bind:data-src="'img/' + clanChatStikcers[i] + '.png'" v-bind:alt="clanChatName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(clanChatStikcers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(clanChatStikcers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button> </div>
 							</div>
@@ -116,9 +119,19 @@ window.addEventListener('load', () => {
 						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(albumName, i) in albumNames">
 								<div class="album-name uk-text-bold uk-margin-small-bottom">{{albumName}}</div>
-								<div><img class="album-sticker" v-bind:id="albumStickers[i]" v-bind:data-src="'img/' + albumStickers[i] + '.png'" v-bind:alt="albumName" uk-img></div>
+								<div><img v-bind:id="albumStickers[i]" v-bind:data-src="'img/' + albumStickers[i] + '.png'" v-bind:alt="albumName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(albumStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(albumStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-grid-medium uk-text-center" uk-grid>
+							<div v-for="(cacaoName, i) in cacaoNames">
+								<div class="uk-text-bold uk-margin-small-bottom">{{cacaoName}}</div>
+								<div><img v-bind:id="cacaoStickers[i]" v-bind:data-src="'img/' + cacaoStickers[i] + '.png'" v-bind:alt="cacaoName" uk-img></div>
+								<div v-if="clipboardImpled"><button v-on:click="copyImage(cacaoStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+								<div><button v-on:click="copyLink(cacaoStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
 							</div>
 						</div>
 					</li>
@@ -126,7 +139,7 @@ window.addEventListener('load', () => {
 						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(happeningName, i) in happeningNames">
 								<div class="uk-text-bold uk-margin-small-bottom">{{happeningName}}</div>
-								<div><img class="happening-sticker" v-bind:id="happeningStickers[i]" v-bind:data-src="'img/' + happeningStickers[i] + '.png'" v-bind:alt="happeningName" uk-img></div>
+								<div><img v-bind:id="happeningStickers[i]" v-bind:data-src="'img/' + happeningStickers[i] + '.png'" v-bind:alt="happeningName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(happeningStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(happeningStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
 							</div>
