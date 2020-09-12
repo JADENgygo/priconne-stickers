@@ -42,7 +42,7 @@ window.addEventListener('load', () => {
 					'追い風', 'ニノンの爆裂忍法', 'ロケット', '腹すべり', 'メサルティム', 'アクダイカン像', '土砂降り雨', '目回し', 'ドリル'],
 				happeningStickers: ['geyser_giant_slalom', 'tornado_giant_slalom', 'headwind_giant_slalom', 'banana_jump_giant_slalom', 'ultra_low_flight_giant_slalom',
 					'ayumis_fan_giant_slalom', 'jizu_giant_slalom', 'super_ball_giant_slalom', 'lightning_strike_giant_slalom', 'banana_slide_giant_slalom', 'atmospheric_entry_giant_slalom',
-					'tailwind_giant_slalom', 'ninons_explosive_ninja_giant_slalom', 'rocket_giant_slalom', 'belly_slide_giant_slalom', 'mesaruthimu_giant_slalom',
+					'tailwind_giant_slalom', 'ninons_explosive_ninja_giant_slalom', 'rocket_giant_slalom', 'belly_slide_giant_slalom', 'mesarthim_giant_slalom',
 					'akudaikan_statue_giant_slalom', 'downpour_giant_slalom', 'giddy_giant_slalom', 'drill_giant_slalom'],
 				shiritoriWords: ['リンゴ', 'ゴリラ', 'ラッパ', 'パイナップル', 'ルビー', 'ビールっぽいもの', 'ゆみや', 'おんぷ', 'えのぐ', 'けん', 'めがね', 'むしめがね', 'にく', 'つき',
 					'こうもり', 'とり', 'くつ', 'ねこ', 'きんぎょ', 'ねずみ', 'たまご', 'ふね', 'ぎゅうにゅう', 'チョコレート', 'どんぐり', 'いちご', 'とら', 'ぬいぐるみ', 'ばくだん',
