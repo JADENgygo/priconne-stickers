@@ -26,7 +26,11 @@ window.addEventListener('load', () => {
 					'saren', 'jita', 'shiori', 'shiori_magical', 'shizuru', 'shinobu', 'jun', 'suzuna', 'suzume', 'tamaki', 'chieru', 'chika', 'tsumugi', 'tomo', 'nanaka','ninon',
 					'ninon_oedo', 'neneka', 'nozomi', 'hatsune', 'hiyori', 'peko', 'peko_princess', 'makoto', 'matsuri', 'mahiru', 'mahiru_ranger', 'maho', 'misaki', 'misato',
 					'misogi', 'mitsuki', 'mihuyu', 'mimi', 'miyako', 'muimi', 'monika', 'yui', 'yui_princess', 'yukari', 'yuki', 'yuni', 'yori', 'rabirisuta', 'rino', 'rino_wonder',
-					'rima', 'rin', 'rin_ranger', 'ruu', 'ruka', 'runa', 'rei']
+					'rima', 'rin', 'rin_ranger', 'ruu', 'ruka', 'runa', 'rei'],
+				happeningNames: ['間欠泉', 'トルネード', '向かい風', 'バナナジャンプ', '超低空飛行', 'アユミのうちわ',  'ジズ', 'スーパーボール', '落雷', 'バナナスライド', '成層圏突入',
+					'追い風', 'ニノンの爆裂忍法', 'ロケット', '腹すべり', 'メサルティム', 'アクダイカン像', '土砂降り雨', '目回し', 'ドリル'],
+				happeningStickers: [ "geyser", "tornado", "headwind", "banana_jump", "ultra_low_flight", "ayumis_fan", "jizu", "super_ball", "lightning_strike", "banana_slide",
+					"atmospheric_entry", "tailwind", "ninons_explosive_ninja", "rocket", "belly_slide", "mesaruthimu", "akudaikan_statue", "downpour", "giddy", "drill"]
 			}
 		},
 		methods: {
@@ -72,13 +76,14 @@ window.addEventListener('load', () => {
 					<li><a href="#">クラチャ</a></li>
 					<li><a href="#">ギルドハウス</a></li>
 					<li><a href="#">思い出アルバム</a></li>
+					<li><a href="#">クウカ大回転</a></li>
 				</ul>
 				<ul class="uk-switcher">
 					<li>
 						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(clanChatName, i) in clanChatNames">
 								<div class="uk-text-bold uk-margin-small-bottom">{{clanChatName}}</div>
-								<div><img class="clan-chat-sticker" v-bind:id="clanChatStikcers[i]" v-bind:data-src="'img/' + clanChatStikcers[i]+ '.png'" v-bind:alt="clanChatStikcers[i]" uk-img></div>
+								<div><img class="clan-chat-sticker" v-bind:id="clanChatStikcers[i]" v-bind:data-src="'img/' + clanChatStikcers[i]+ '.png'" v-bind:alt="clanChatName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(clanChatStikcers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(clanChatStikcers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button> </div>
 							</div>
@@ -100,9 +105,19 @@ window.addEventListener('load', () => {
 						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(albumName, i) in albumNames">
 								<div class="album-name uk-text-bold uk-margin-small-bottom">{{albumName}}</div>
-								<div><img class="album-sticker" v-bind:id="albumStickers[i] + '_album'" v-bind:data-src="'img/' + albumStickers[i] + '_album.png'" v-bind:alt="albumStickers[i]" uk-img></div>
+								<div><img class="album-sticker" v-bind:id="albumStickers[i] + '_album'" v-bind:data-src="'img/' + albumStickers[i] + '_album.png'" v-bind:alt="albumName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(albumStickers[i] + '_album')" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(albumStickers[i] + '_album')" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+							<div v-for="(happeningName, i) in happeningNames">
+								<div class="uk-text-bold uk-margin-small-bottom">{{happeningName}}</div>
+								<div><img class="happening-sticker" v-bind:id="happeningStickers[i] + '_giant_slalom'" v-bind:data-src="'img/' + happeningStickers[i] + '_giant_slalom.png'" v-bind:alt="happeningName" uk-img></div>
+								<div v-if="clipboardImpled"><button v-on:click="copyImage(happeningStickers[i] + '_giant_slalom')" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+								<div><button v-on:click="copyLink(happeningStickers[i] + '_giant_slalom')" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
 							</div>
 						</div>
 					</li>

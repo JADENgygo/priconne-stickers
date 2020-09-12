@@ -16,6 +16,11 @@ canvas {
 	height: 383;
 }
 
+.happening-sticker {
+	width: 100;
+	height: 100;
+}
+
 .album-name {
 	white-space: nowrap;
 }
