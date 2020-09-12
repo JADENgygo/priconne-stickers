@@ -99,7 +99,7 @@ window.addEventListener('load', () => {
 					<li>
 						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(albumName, i) in albumNames">
-								<div class="uk-text-bold uk-margin-small-bottom">{{albumName}}</div>
+								<div class="album-name uk-text-bold uk-margin-small-bottom">{{albumName}}</div>
 								<div><img class="album-sticker" v-bind:id="albumStickers[i] + '_album'" v-bind:data-src="'img/' + albumStickers[i] + '_album.png'" v-bind:alt="albumStickers[i]" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(albumStickers[i] + '_album')" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(albumStickers[i] + '_album')" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>

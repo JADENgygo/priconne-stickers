@@ -16,3 +16,7 @@ canvas {
 	height: 383;
 }
 
+.album-name {
+	white-space: nowrap;
+}
+
