@@ -69,7 +69,12 @@ window.addEventListener('load', () => {
 					'aoi_shiritori', 'chika_shiritori', 'makoto_shiritori', 'iriya_shiritori', 'kuuka_shiritori', 'tamaki_shiritori', 'jun_shiritori', 'mihuyu_shiritori', 'shizuru_shiritori',
 					'misaki_shiritori', 'mitsuki_shiritori', 'rima_shiritori', 'monika_shiritori', 'tsumugi_shiritori', 'ayumi_shiritori', 'ruka_shiritori', 'jita_shiritori', 'peko_shiritori',
 					'kokkoro_shiritori', 'kyaru_shiritori', 'muimi_shiritori', 'arisa_shiritori', 'neneka_shiritori', 'kurisu_shiritori', 'inori_shiritori', 'kaya_shiritori', 'homare_shiritori',
-					'kuroe_shiritori', 'chieru_shiritori', 'yuni_shiritori']
+					'kuroe_shiritori', 'chieru_shiritori', 'yuni_shiritori'],
+				cheeseContentNames: ['観察開始!', '熟成', '麗しき青', '誘惑1', '誘惑2', '謎は謎のままに', '木槌', '魔法の小槌', 'マヒルお手製ハリセン', '打ちでの小槌', '駆け出しのチュウ',
+					'韋駄天のチュウタ', '草土竜のチュウヤ', 'ステゴロのチュウザ', 'ひよ子', '益荒男のチュウジ', '怒髪天のチュウジ', '金庫破りのチュウサブロウ'],
+				cheeseContentStickers: ['start_observation_cheese', 'ripe_cheese', 'beautiful_blue_cheese', 'temptation1_cheese', 'temptation2_cheese', 'mystery_remains_mystery_cheese',
+					'mallet_cheese', 'magical_mallet_cheese', 'harisen_cheese', 'mallet_of_luck_cheese', 'chuu_cheese', 'chuuta_cheese', 'chuuya_cheese', 'chuuza_cheese', 'chick_cheese',
+					'masurao_chuuji_cheese', 'dohatsuten_chuuji_cheese', 'chuusaburou_cheese']
 			}
 		},
 		methods: {
@@ -118,6 +123,7 @@ window.addEventListener('load', () => {
 					<li><a href="#">お兄ちゃん争奪</a></li>
 					<li><a href="#">クウカ大回転</a></li>
 					<li><a href="#">しりとりドラゴンズ</a></li>
+					<li><a href="#">チーズお守り大作戦</a></li>
 				</ul>
 				<ul class="uk-switcher">
 					<li>
@@ -179,6 +185,16 @@ window.addEventListener('load', () => {
 								<div><img v-bind:id="shiritoriStickers[i]" v-bind:data-src="'img/' + shiritoriStickers[i] + '.png'" v-bind:alt="shiritoriWord" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(shiritoriStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(shiritoriStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+							<div v-for="(cheeseContentName, i) in cheeseContentNames">
+								<div class="uk-text-bold uk-margin-small-bottom">{{cheeseContentName}}</div>
+								<div><img v-bind:id="cheeseContentStickers[i]" v-bind:data-src="'img/' + cheeseContentStickers[i] + '.png'" v-bind:alt="cheeseContentName" uk-img></div>
+								<div v-if="clipboardImpled"><button v-on:click="copyImage(cheeseContentStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+								<div><button v-on:click="copyLink(cheeseContentStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
 							</div>
 						</div>
 					</li>
