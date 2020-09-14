@@ -78,7 +78,11 @@ window.addEventListener('load', () => {
 				diaryPageNames: ['どうしてこんなことに…?', 'ごきげんようが言えなくて', 'やっちゃった!', 'ユニさんはこんな人', 'クロエさんはこんな人', 'チエルさんはこんな人', '知的なユニさん',
 					'優しいクエロさん', '憧れのチエルさん', '特別講座の練習', 'いよいよ特別講座', 'さすがBB団の団長さん!', 'マンドラゴラでパニック', '最終日'],
 				diaryStickers: ['day1_chicken', 'day2_chicken', 'day3_chicken', 'day4_chicken', 'day5_chicken', 'day6_chicken', 'day7_chicken', 'day8_chicken', 'day9_chicken', 'day10_chicken',
-					'day11_chicken', 'day12_chicken', 'day13_chicken', 'day14_chicken']
+					'day11_chicken', 'day12_chicken', 'day13_chicken', 'day14_chicken'],
+				xNotePageNames: ['次世代へ継承すべき新言語', '私はとても作文が苦手です', '飛翔へと至るまで', '閃きましたわ!', '組み立てにゃ!', '私こんなの書いたっけ…?', 'このままにしておけないわ',
+					'特別講座を終えて', '考察', '試作機完成', '最終工程'],
+				xNoteStickers: ['chieru_foundation', 'kuroe_foundation', 'yuni_foundation', 'akino_foundation', 'tamaki_foundation', 'yukari_foundation', 'mihuyu_foundation', 'mercurius_foundation',
+					'nakayoshix1_foundation', 'nakayoshix2_foundation', 'nakayoshix3_foundation']
 			}
 		},
 		methods: {
@@ -210,6 +214,17 @@ window.addEventListener('load', () => {
 								<div><img v-bind:id="diaryStickers[i]" v-bind:data-src="'img/' + diaryStickers[i] + '.png'" v-bind:alt="diaryPageName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(diaryStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(diaryStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="uk-accordion-title" href="#">授けの財団と聖なる学舎の異端児</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+							<div v-for="(xNotePageName, i) in xNotePageNames">
+								<div class="uk-text-bold uk-margin-small-bottom">{{xNotePageName}}</div>
+								<div><img v-bind:id="xNoteStickers[i]" v-bind:data-src="'img/' + xNoteStickers[i] + '.png'" v-bind:alt="xNotePageName" uk-img></div>
+								<div v-if="clipboardImpled"><button v-on:click="copyImage(xNoteStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+								<div><button v-on:click="copyLink(xNoteStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
 							</div>
 						</div>
 					</li>
