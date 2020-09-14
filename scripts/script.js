@@ -74,7 +74,11 @@ window.addEventListener('load', () => {
 					'韋駄天のチュウタ', '草土竜のチュウヤ', 'ステゴロのチュウザ', 'ひよ子', '益荒男のチュウジ', '怒髪天のチュウジ', '金庫破りのチュウサブロウ'],
 				cheeseContentStickers: ['start_observation_cheese', 'ripe_cheese', 'beautiful_blue_cheese', 'temptation1_cheese', 'temptation2_cheese', 'mystery_remains_mystery_cheese',
 					'mallet_cheese', 'magical_mallet_cheese', 'harisen_cheese', 'mallet_of_luck_cheese', 'chuu_cheese', 'chuuta_cheese', 'chuuya_cheese', 'chuuza_cheese', 'chick_cheese',
-					'masurao_chuuji_cheese', 'dohatsuten_chuuji_cheese', 'chuusaburou_cheese']
+					'masurao_chuuji_cheese', 'dohatsuten_chuuji_cheese', 'chuusaburou_cheese'],
+				diaryPageNames: ['どうしてこんなことに…?', 'ごきげんようが言えなくて', 'やっちゃった!', 'ユニさんはこんな人', 'クロエさんはこんな人', 'チエルさんはこんな人', '知的なユニさん',
+					'優しいクエロさん', '憧れのチエルさん', '特別講座の練習', 'いよいよ特別講座', 'さすがBB団の団長さん!', 'マンドラゴラでパニック', '最終日'],
+				diaryStickers: ['day1_chicken', 'day2_chicken', 'day3_chicken', 'day4_chicken', 'day5_chicken', 'day6_chicken', 'day7_chicken', 'day8_chicken', 'day9_chicken', 'day10_chicken',
+					'day11_chicken', 'day12_chicken', 'day13_chicken', 'day14_chicken']
 			}
 		},
 		methods: {
@@ -116,18 +120,10 @@ window.addEventListener('load', () => {
 		},
 		template: `
 			<div class="uk-container">
-				<ul uk-tab class="uk-margin-top">
-					<li><a href="#">クラチャ</a></li>
-					<li><a href="#">ギルドハウス</a></li>
-					<li><a href="#">思い出アルバム</a></li>
-					<li><a href="#">お兄ちゃん争奪</a></li>
-					<li><a href="#">クウカ大回転</a></li>
-					<li><a href="#">しりとりドラゴンズ</a></li>
-					<li><a href="#">チーズお守り大作戦</a></li>
-				</ul>
-				<ul class="uk-switcher">
+				<ul uk-accordion="multiple: true" class="uk-margin-top">
 					<li>
-						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+						<a class="uk-accordion-title" href="#">クラチャ</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(clanChatName, i) in clanChatNames">
 								<div class="uk-text-bold uk-margin-small-bottom">{{clanChatName}}</div>
 								<div><img v-bind:id="clanChatStikcers[i]" v-bind:data-src="'img/' + clanChatStikcers[i] + '.png'" v-bind:alt="clanChatName" uk-img></div>
@@ -137,19 +133,23 @@ window.addEventListener('load', () => {
 						</div>
 					</li>
 					<li>
-						<template v-for="(guildName, i) in guildNames">
-							<div class="uk-text-bold uk-margin-top uk-margin-bottom">{{guildName}}</div>
-							<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
-								<div v-for="guildSticker in guildStickers[i]">
-									<div><img v-bind:id="guildSticker" v-bind:data-src="'img/' + guildSticker + '.png'" v-bind:alt="guildSticker" uk-img></div>
-									<div v-if="clipboardImpled"><button v-on:click="copyImage(guildSticker)" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
-									<div><button v-on:click="copyLink(guildSticker)" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
+						<a class="uk-accordion-title" href="#">ギルドハウス</a>
+						<div class="uk-accordion-content">
+							<template v-for="(guildName, i) in guildNames">
+								<div class="uk-text-bold uk-margin-bottom">{{guildName}}</div>
+								<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+									<div v-for="guildSticker in guildStickers[i]">
+										<div><img v-bind:id="guildSticker" v-bind:data-src="'img/' + guildSticker + '.png'" v-bind:alt="guildSticker" uk-img></div>
+										<div v-if="clipboardImpled"><button v-on:click="copyImage(guildSticker)" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+										<div><button v-on:click="copyLink(guildSticker)" class="uk-button uk-button-default uk-button-small uk-margin-small-top uk-margin-bottom">リンクコピー</button></div>
+									</div>
 								</div>
-							</div>
-						</template>
+							</template>
+						</div>
 					</li>
 					<li>
-						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+						<a class="uk-accordion-title" href="#">思い出アルバム</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(albumName, i) in albumNames">
 								<div class="album-name uk-text-bold uk-margin-small-bottom">{{albumName}}</div>
 								<div><img v-bind:id="albumStickers[i]" v-bind:data-src="'img/' + albumStickers[i] + '.png'" v-bind:alt="albumName" uk-img></div>
@@ -159,7 +159,8 @@ window.addEventListener('load', () => {
 						</div>
 					</li>
 					<li>
-						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-grid-medium uk-text-center" uk-grid>
+						<a class="uk-accordion-title" href="#">お兄ちゃん争奪</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(cacaoName, i) in cacaoNames">
 								<div class="uk-text-bold uk-margin-small-bottom">{{cacaoName}}</div>
 								<div><img v-bind:id="cacaoStickers[i]" v-bind:data-src="'img/' + cacaoStickers[i] + '.png'" v-bind:alt="cacaoName" uk-img></div>
@@ -169,7 +170,8 @@ window.addEventListener('load', () => {
 						</div>
 					</li>
 					<li>
-						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+						<a class="uk-accordion-title" href="#">クウカ大回転</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(happeningName, i) in happeningNames">
 								<div class="uk-text-bold uk-margin-small-bottom">{{happeningName}}</div>
 								<div><img v-bind:id="happeningStickers[i]" v-bind:data-src="'img/' + happeningStickers[i] + '.png'" v-bind:alt="happeningName" uk-img></div>
@@ -179,7 +181,8 @@ window.addEventListener('load', () => {
 						</div>
 					</li>
 					<li>
-						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+						<a class="uk-accordion-title" href="#">しりとりドラゴンズ</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(shiritoriWord, i) in shiritoriWords">
 								<div class="uk-text-bold uk-margin-small-bottom">{{shiritoriWord}}</div>
 								<div><img v-bind:id="shiritoriStickers[i]" v-bind:data-src="'img/' + shiritoriStickers[i] + '.png'" v-bind:alt="shiritoriWord" uk-img></div>
@@ -189,12 +192,24 @@ window.addEventListener('load', () => {
 						</div>
 					</li>
 					<li>
-						<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+						<a class="uk-accordion-title" href="#">チーズお守り大作戦</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
 							<div v-for="(cheeseContentName, i) in cheeseContentNames">
 								<div class="uk-text-bold uk-margin-small-bottom">{{cheeseContentName}}</div>
 								<div><img v-bind:id="cheeseContentStickers[i]" v-bind:data-src="'img/' + cheeseContentStickers[i] + '.png'" v-bind:alt="cheeseContentName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(cheeseContentStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(cheeseContentStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="uk-accordion-title" href="#">森の臆病者と聖なる学舎の異端児</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+							<div v-for="(diaryPageName, i) in diaryPageNames">
+								<div class="uk-text-bold uk-margin-small-bottom">{{diaryPageName}}</div>
+								<div><img v-bind:id="diaryStickers[i]" v-bind:data-src="'img/' + diaryStickers[i] + '.png'" v-bind:alt="diaryPageName" uk-img></div>
+								<div v-if="clipboardImpled"><button v-on:click="copyImage(diaryStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+								<div><button v-on:click="copyLink(diaryStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
 							</div>
 						</div>
 					</li>
