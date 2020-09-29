@@ -21,6 +21,8 @@ window.addEventListener('load', () => {
 					['ruka_guildhouse', 'mitsuki_guildhouse', 'eriko_guildhouse', 'nanaka_guildhouse', 'anna_guildhouse'], ['io_guildhouse', 'misaki_guildhouse', 'suzuna_guildhouse'],
 					['monika_guildhouse', 'yuki_guildhouse', 'ninon_guildhouse', 'kuuka_guildhouse', 'ayumi_guildhouse'], ['yuni_guildhouse', 'kuroe_guildhouse', 'chieru_guildhouse'],
 					['kaya_guildhouse', 'inori_guildhouse']],
+				bossNames: ['ゴブリングレート', 'ライライ', 'レイスロード', 'ダークガーゴイル', 'グラットン'],
+				bossStickers: ['goblin_great_clan_battle', 'rairai_clan_battle', 'wraith_lord_clan_battle', 'dark_gargoyle_clan_battle', 'guratton_clan_battle'],
 				albumNames: ['アオイ', 'アオイ (編入生)', 'アカリ', 'アカリ (エンジェル)', 'アキノ', 'アヤネ', 'アユミ', 'アユミ (ワンダー)', 'アリサ', 'アン', 'アンナ', 'イオ', 'イノリ',
 					'イリヤ', 'エリコ', 'カオリ', 'カスミ', 'カスミ (マジカル)', 'カヤ', 'キャル', 'キョウカ', 'クウカ', 'クウカ (オーエド)', 'クリスティーナ', 'クルミ', 'グレア',
 					'クロエ', 'コッコロ', 'コッコロ (プリンセス)', 'サレン', 'ジータ', 'シオリ', 'シオリ (マジカル)', 'シズル', 'シノブ', 'ジュン', 'スズナ', 'スズメ', 'タマキ',
@@ -160,6 +162,17 @@ window.addEventListener('load', () => {
 								<div><img v-bind:id="albumStickers[i]" v-bind:data-src="'img/' + albumStickers[i] + '.png'" v-bind:alt="albumName" uk-img></div>
 								<div v-if="clipboardImpled"><button v-on:click="copyImage(albumStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 								<div><button v-on:click="copyLink(albumStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="uk-accordion-title" href="#">クラバト</a>
+						<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+							<div v-for="(bossName, i) in bossNames">
+								<div class="uk-text-bold uk-margin-small-bottom">{{bossName}}</div>
+								<div><img v-bind:id="bossStickers[i]" v-bind:data-src="'img/' + bossStickers[i] + '.png'" v-bind:alt="bossName" uk-img></div>
+								<div v-if="clipboardImpled"><button v-on:click="copyImage(bossStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+								<div><button v-on:click="copyLink(bossStickers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">リンクコピー</button></div>
 							</div>
 						</div>
 					</li>
