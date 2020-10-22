@@ -170,7 +170,7 @@ window.addEventListener('load', () => {
 							</div>
 						</li>
 					</ul>
-					<div><span class="uk-text-muted">サイト作成者: </span><a class="uk-link-muted" href="https://twitter.com/JADENgygo">@JADENgygo</a></div>
+					<div class="uk-margin-bottom"><span class="uk-text-muted">サイト作成者: </span><a class="uk-link-muted" href="https://twitter.com/JADENgygo">@JADENgygo</a></div>
 				</div>
 				<canvas id="canvas"></canvas>
 			</div>
