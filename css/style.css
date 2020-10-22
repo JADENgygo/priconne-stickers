@@ -5,8 +5,3 @@ button {
 canvas {
 	display: none;
 }
-
-.album-name {
-	white-space: nowrap;
-}
-
