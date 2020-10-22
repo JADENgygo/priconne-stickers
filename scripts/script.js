@@ -148,7 +148,7 @@ window.addEventListener('load', () => {
 							<div class="uk-accordion-content">
 								<template v-for="(guildName, i) in guildNames">
 									<div class="uk-text-bold uk-margin-small-bottom">{{ guildName }}</div>
-									<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+									<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-small uk-text-center" uk-grid>
 										<div v-for="guildSticker in guildStickers[i]">
 											<div><img v-bind:id="guildSticker" v-bind:data-src="'img/' + guildSticker + '.png'" v-bind:alt="guildSticker" uk-img></div>
 											<div v-if="clipboardImpled"><button v-on:click="copyImage(guildSticker)" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
@@ -160,7 +160,7 @@ window.addEventListener('load', () => {
 						</li>
 						<li v-for="(content, contentIndex) in contents">
 							<a class="uk-accordion-title" href="#">{{ content }}</a>
-							<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-medium uk-text-center" uk-grid>
+							<div class="uk-accordion-content uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-small uk-text-center" uk-grid>
 								<div v-for="(name, nameIndex) in names[contentIndex]">
 									<div class="uk-text-bold uk-margin-top uk-margin-small-bottom">{{ name }}</div>
 									<div><img v-bind:id="stickers[contentIndex][nameIndex]" v-bind:data-src="'img/' + stickers[contentIndex][nameIndex] + '.png'" v-bind:alt="name" uk-img></div>
