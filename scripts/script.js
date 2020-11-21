@@ -122,7 +122,7 @@ window.addEventListener('load', () => {
 			},
 			copyLink: function(id) {
 				const dummy = document.createElement('div');
-				dummy.textContent = 'https://jadengygo.github.io/princess-connect-stickers/img/' + id + '.png';
+				dummy.textContent = 'https://princess-connect-stickers.netlify.app/img/' + id + '.png';
 				dummy.style.visible = 'hidden'
 				document.body.appendChild(dummy);
 				document.getSelection().selectAllChildren(dummy);
