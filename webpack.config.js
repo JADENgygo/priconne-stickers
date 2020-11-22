@@ -29,6 +29,7 @@ module.exports = {
 					presets: ['@babel/preset-env']
 				}
 			},
+			/*
 			{
 				test: /\.webp$/,
 				loader: 'url-loader',
@@ -36,6 +37,7 @@ module.exports = {
 					esModule: false
 				}
 			}
+			*/
 		]
 	},
 	resolve: {
