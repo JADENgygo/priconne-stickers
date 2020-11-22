@@ -1,0 +1,59 @@
+<template>
+	<div class="uk-container">
+		<div class="uk-text-lead uk-margin-top">森の臆病者と聖なる学舎の異端児</div>
+		<div class="uk-margin-top uk-link-muted"><router-link to="/">トップページ</router-link></div>
+		<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-small uk-text-center" uk-grid>
+			<div v-for="(name, nameIndex) in diaryPageNames">
+				<div class="uk-text-bold uk-margin-top uk-margin-small-bottom">{{ name }}</div>
+				<div><img v-bind:id="diaryStickers[nameIndex]" v-bind:src="diaryStickers[nameIndex]"></div>
+				<div v-if="clipboardImpled"><button v-on:click="$emit('click', diaryStickers[nameIndex])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+			</div>
+		</div>
+	</div>
+</template>
+<script>
+export default {
+	created: function() {
+		this.diaryStickers = [
+			require('./img/day1_chicken.webp'),
+			require('./img/day2_chicken.webp'),
+			require('./img/day3_chicken.webp'),
+			require('./img/day4_chicken.webp'),
+			require('./img/day5_chicken.webp'),
+			require('./img/day6_chicken.webp'),
+			require('./img/day7_chicken.webp'),
+			require('./img/day8_chicken.webp'),
+			require('./img/day9_chicken.webp'),
+			require('./img/day10_chicken.webp'),
+			require('./img/day11_chicken.webp'),
+			require('./img/day12_chicken.webp'),
+			require('./img/day13_chicken.webp'),
+			require('./img/day14_chicken.webp')
+		];
+	},
+	data: function() {
+		return {
+			clipboardImpled: typeof navigator.clipboard.write !== 'undefined',
+			diaryPageNames: [
+				'どうしてこんなことに…?',
+				'ごきげんようが言えなくて',
+				'やっちゃった!',
+				'ユニさんはこんな人',
+				'クロエさんはこんな人',
+				'チエルさんはこんな人',
+				'知的なユニさん',
+				'優しいクエロさん',
+				'憧れのチエルさん',
+				'特別講座の練習',
+				'いよいよ特別講座',
+				'さすがBB団の団長さん!',
+				'マンドラゴラでパニック',
+				'最終日'
+			],
+			diaryStickers: []
+		}
+	},
+}
+</script>
+<style scoped>
+</style>
