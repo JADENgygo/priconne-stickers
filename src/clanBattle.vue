@@ -14,6 +14,7 @@
 <script>
 export default {
 	created: function() {
+		/*
 		this.bossStickers = [
 			require('./img/goblin_great_clan_battle.webp'),
 			require('./img/rairai_clan_battle.webp'),
@@ -23,6 +24,17 @@ export default {
 			require('./img/orc_chief_clan_battle.webp'),
 			require('./img/obsidian_wyvern_clan_battle.webp'),
 			require('./img/Lesath_pult_clan_battle.webp')
+		];
+		*/
+		this.bossStickers = [
+			'./img/goblin_great_clan_battle.webp',
+			'./img/rairai_clan_battle.webp',
+			'./img/wraith_lord_clan_battle.webp',
+			'./img/dark_gargoyle_clan_battle.webp',
+			'./img/guratton_clan_battle.webp',
+			'./img/orc_chief_clan_battle.webp',
+			'./img/obsidian_wyvern_clan_battle.webp',
+			'./img/Lesath_pult_clan_battle.webp'
 		];
 	},
 	data: function() {

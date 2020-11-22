@@ -14,6 +14,7 @@
 <script>
 export default {
 	created: function() {
+		/*
 		this.clanChatStikcers = [
 			require('./img/peko.webp'),
 			require('./img/kokkoro.webp'),
@@ -47,6 +48,41 @@ export default {
 			require('./img/shizuru.webp'),
 			require('./img/misaki.webp'),
 			require('./img/monika.webp')
+		];
+		*/
+		this.clanChatStikcers = [
+			'./img/peko.webp',
+			'./img/kokkoro.webp',
+			'./img/kyaru.webp',
+			'./img/hiyori.webp',
+			'./img/yui.webp',
+			'./img/rei.webp',
+			'./img/misogi.webp',
+			'./img/anna.webp',
+			'./img/maho.webp',
+			'./img/rino.webp',
+			'./img/hatsune.webp',
+			'./img/suzuna.webp',
+			'./img/kaori.webp',
+			'./img/mimi.webp',
+			'./img/kurumi.webp',
+			'./img/yori.webp',
+			'./img/ayane.webp',
+			'./img/suzume.webp',
+			'./img/eriko.webp',
+			'./img/saren.webp',
+			'./img/nozomi.webp',
+			'./img/shinobu.webp',
+			'./img/yukari.webp',
+			'./img/kyouka.webp',
+			'./img/aoi.webp',
+			'./img/iriya.webp',
+			'./img/kuuka.webp',
+			'./img/tamaki.webp',
+			'./img/mihuyu.webp',
+			'./img/shizuru.webp',
+			'./img/misaki.webp',
+			'./img/monika.webp'
 		];
 	},
 	data: function() {

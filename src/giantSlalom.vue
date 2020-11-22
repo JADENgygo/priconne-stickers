@@ -14,6 +14,7 @@
 <script>
 export default {
 	created: function() {
+		/*
 		this.happeningStickers = [
 			require('./img/geyser_giant_slalom.webp'),
 			require('./img/tornado_giant_slalom.webp'),
@@ -35,6 +36,29 @@ export default {
 			require('./img/downpour_giant_slalom.webp'),
 			require('./img/giddy_giant_slalom.webp'),
 			require('./img/drill_giant_slalom.webp')
+		];
+		*/
+		this.happeningStickers = [
+			'./img/geyser_giant_slalom.webp',
+			'./img/tornado_giant_slalom.webp',
+			'./img/headwind_giant_slalom.webp',
+			'./img/banana_jump_giant_slalom.webp',
+			'./img/ultra_low_flight_giant_slalom.webp',
+			'./img/ayumis_fan_giant_slalom.webp',
+			'./img/jizu_giant_slalom.webp',
+			'./img/super_ball_giant_slalom.webp',
+			'./img/lightning_strike_giant_slalom.webp',
+			'./img/banana_slide_giant_slalom.webp',
+			'./img/atmospheric_entry_giant_slalom.webp',
+			'./img/tailwind_giant_slalom.webp',
+			'./img/ninons_explosive_ninja_giant_slalom.webp',
+			'./img/rocket_giant_slalom.webp',
+			'./img/belly_slide_giant_slalom.webp',
+			'./img/mesarthim_giant_slalom.webp',
+			'./img/akudaikan_statue_giant_slalom.webp',
+			'./img/downpour_giant_slalom.webp',
+			'./img/giddy_giant_slalom.webp',
+			'./img/drill_giant_slalom.webp'
 		];
 	},
 	data: function() {

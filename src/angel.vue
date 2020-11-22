@@ -14,6 +14,7 @@
 <script>
 export default {
 	created: function() {
+		/*
 		this.xNoteStickers = [
 			require('./img/chieru_foundation.webp'),
 			require('./img/kuroe_foundation.webp'),
@@ -26,6 +27,20 @@ export default {
 			require('./img/nakayoshix1_foundation.webp'),
 			require('./img/nakayoshix2_foundation.webp'),
 			require('./img/nakayoshix3_foundation.webp')
+		];
+		*/
+		this.xNoteStickers = [
+			'./img/chieru_foundation.webp',
+			'./img/kuroe_foundation.webp',
+			'./img/yuni_foundation.webp',
+			'./img/akino_foundation.webp',
+			'./img/tamaki_foundation.webp',
+			'./img/yukari_foundation.webp',
+			'./img/mihuyu_foundation.webp',
+			'./img/mercurius_foundation.webp',
+			'./img/nakayoshix1_foundation.webp',
+			'./img/nakayoshix2_foundation.webp',
+			'./img/nakayoshix3_foundation.webp'
 		];
 	},
 	data: function() {

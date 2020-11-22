@@ -14,6 +14,7 @@
 <script>
 export default {
 	created: function() {
+		/*
 		this.albumStickers = [
 			require('./img/aoi_album.webp'), require('./img/aoi_hennyusei_album.webp'), require('./img/akari_album.webp'), require('./img/akari_angel_album.webp'), require('./img/akino_album.webp'),
 			require('./img/ayane_album.webp'), require('./img/ayumi_album.webp'), require('./img/ayumi_wonder_album.webp'), require('./img/arisa_album.webp'), require('./img/an_album.webp'), require('./img/anna_album.webp'),
@@ -30,6 +31,24 @@ export default {
 			require('./img/yui_princess_album.webp'), require('./img/yukari_album.webp'), require('./img/yuki_album.webp'), require('./img/yuni_album.webp'), require('./img/yori_album.webp'), require('./img/yori_angel_album.webp'),
 			require('./img/rabirisuta_album.webp'), require('./img/rino_album.webp'), require('./img/rino_wonder_album.webp'), require('./img/rima_album.webp'), require('./img/rin_album.webp'),
 			require('./img/rin_ranger_album.webp'), require('./img/ruu_album.webp'), require('./img/ruka_album.webp'), require('./img/runa_album.webp'), require('./img/rei_album.webp')
+		];
+		*/
+		this.albumStickers = [
+			'./img/aoi_album.webp', './img/aoi_hennyusei_album.webp', './img/akari_album.webp', './img/akari_angel_album.webp', './img/akino_album.webp',
+			'./img/ayane_album.webp', './img/ayumi_album.webp', './img/ayumi_wonder_album.webp', './img/arisa_album.webp', './img/an_album.webp', './img/anna_album.webp',
+			'./img/io_album.webp', './img/inori_album.webp', './img/iriya_album.webp', './img/eriko_album.webp', './img/kaori_album.webp', './img/kasumi_album.webp',
+			'./img/kasumi_magical_album.webp', './img/kaya_album.webp', './img/kyaru_album.webp', './img/kyouka_album.webp', './img/kuuka_album.webp',
+			'./img/kuuka_oedo_album.webp', './img/kurisu_album.webp', './img/kurumi_album.webp', './img/gurea_album.webp', './img/kuroe_album.webp', './img/kokkoro_album.webp',
+			'./img/kokkoro_princess_album.webp', './img/saren_album.webp', './img/jita_album.webp', './img/shiori_album.webp', './img/shiori_magical_album.webp',
+			'./img/shizuru_album.webp', './img/shinobu_album.webp', './img/jun_album.webp', './img/suzuna_album.webp', './img/suzume_album.webp', './img/tamaki_album.webp',
+			'./img/chieru_album.webp', './img/chika_album.webp', './img/tsumugi_album.webp', './img/tomo_album.webp', './img/nanaka_album.webp','./img/ninon_album.webp',
+			'./img/ninon_oedo_album.webp', './img/neneka_album.webp', './img/nozomi_album.webp', './img/hatsune_album.webp', './img/hiyori_album.webp', './img/peko_album.webp',
+			'./img/peko_princess_album.webp', './img/makoto_album.webp', './img/matsuri_album.webp', './img/mahiru_album.webp', './img/mahiru_ranger_album.webp',
+			'./img/maho_album.webp', './img/misaki_album.webp', './img/misato_album.webp', './img/misogi_album.webp', './img/mitsuki_album.webp', './img/mihuyu_album.webp',
+			'./img/mimi_album.webp', './img/miyako_album.webp', './img/muimi_album.webp', './img/monika_album.webp', './img/monika_magical_album.webp', './img/yui_album.webp',
+			'./img/yui_princess_album.webp', './img/yukari_album.webp', './img/yuki_album.webp', './img/yuni_album.webp', './img/yori_album.webp', './img/yori_angel_album.webp',
+			'./img/rabirisuta_album.webp', './img/rino_album.webp', './img/rino_wonder_album.webp', './img/rima_album.webp', './img/rin_album.webp',
+			'./img/rin_ranger_album.webp', './img/ruu_album.webp', './img/ruka_album.webp', './img/runa_album.webp', './img/rei_album.webp'
 		];
 	},
 	data: function() {

@@ -14,10 +14,17 @@
 <script>
 export default {
 	created: function() {
+		/*
 		this.cacaoStickers = [
 			require('./img/ordinary_cacao_valentine.webp'),
 			require('./img/ripe_cacao_valentine.webp'),
 			require('./img/best_cacao_valentine.webp')
+		];
+		*/
+		this.cacaoStickers = [
+			'./img/ordinary_cacao_valentine.webp',
+			'./img/ripe_cacao_valentine.webp',
+			'./img/best_cacao_valentine.webp'
 		];
 	},
 	data: function() {

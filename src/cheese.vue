@@ -14,6 +14,7 @@
 <script>
 export default {
 	created: function() {
+		/*
 		this.cheeseContentStickers = [
 			require('./img/start_observation_cheese.webp'),
 			require('./img/ripe_cheese.webp'),
@@ -33,6 +34,27 @@ export default {
 			require('./img/masurao_chuuji_cheese.webp'),
 			require('./img/dohatsuten_chuuji_cheese.webp'),
 			require('./img/chuusaburou_cheese.webp')
+		];
+		*/
+		this.cheeseContentStickers = [
+			'./img/start_observation_cheese.webp',
+			'./img/ripe_cheese.webp',
+			'./img/beautiful_blue_cheese.webp',
+			'./img/temptation1_cheese.webp',
+			'./img/temptation2_cheese.webp',
+			'./img/mystery_remains_mystery_cheese.webp',
+			'./img/mallet_cheese.webp',
+			'./img/magical_mallet_cheese.webp',
+			'./img/harisen_cheese.webp',
+			'./img/mallet_of_luck_cheese.webp',
+			'./img/chuu_cheese.webp',
+			'./img/chuuta_cheese.webp',
+			'./img/chuuya_cheese.webp',
+			'./img/chuuza_cheese.webp',
+			'./img/chick_cheese.webp',
+			'./img/masurao_chuuji_cheese.webp',
+			'./img/dohatsuten_chuuji_cheese.webp',
+			'./img/chuusaburou_cheese.webp'
 		];
 	},
 	data: function() {

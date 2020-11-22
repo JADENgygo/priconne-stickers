@@ -14,6 +14,7 @@
 <script>
 export default {
 	created: function() {
+		/*
 		this.diaryStickers = [
 			require('./img/day1_chicken.webp'),
 			require('./img/day2_chicken.webp'),
@@ -29,6 +30,23 @@ export default {
 			require('./img/day12_chicken.webp'),
 			require('./img/day13_chicken.webp'),
 			require('./img/day14_chicken.webp')
+		];
+		*/
+		this.diaryStickers = [
+			'./img/day1_chicken.webp',
+			'./img/day2_chicken.webp',
+			'./img/day3_chicken.webp',
+			'./img/day4_chicken.webp',
+			'./img/day5_chicken.webp',
+			'./img/day6_chicken.webp',
+			'./img/day7_chicken.webp',
+			'./img/day8_chicken.webp',
+			'./img/day9_chicken.webp',
+			'./img/day10_chicken.webp',
+			'./img/day11_chicken.webp',
+			'./img/day12_chicken.webp',
+			'./img/day13_chicken.webp',
+			'./img/day14_chicken.webp'
 		];
 	},
 	data: function() {
