@@ -4,7 +4,7 @@
 			<li class="uk-link-text"><router-link to="/guild-house">ギルドハウス</router-link></li>
 			<li class="uk-link-text"><router-link to="/clan-chat">クランチャット</router-link></li>
 			<li class="uk-link-text"><router-link to="/album">思い出アルバム</router-link></li>
-			<li class="uk-link-text"><router-link to="/clan-battle">クラバト</router-link></li>
+			<li class="uk-link-text"><router-link to="/clan-battle">クランバトル</router-link></li>
 			<li class="uk-link-text"><router-link to="/scramble">お兄ちゃん争奪</router-link></li>
 			<li class="uk-link-text"><router-link to="/giant-slalom">クウカ大回転</router-link></li>
 			<li class="uk-link-text"><router-link to="/shiritori">しりとりドラゴンズ</router-link></li>

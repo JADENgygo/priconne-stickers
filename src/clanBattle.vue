@@ -24,7 +24,12 @@ export default {
 				'グラットン',
 				'オークチーフ',
 				'オブシダンワイバーン',
-				'レサトパルト'
+				'レサトパルト',
+				'ワイバーン',
+				'ワイルドグリフォン',
+				'スカイワルキューレ',
+				'マスターセンリ',
+				'サジタリウス'
 			],
 			stickers: [
 				'./img/goblin_great_clan_battle.webp',
@@ -34,7 +39,12 @@ export default {
 				'./img/guratton_clan_battle.webp',
 				'./img/orc_chief_clan_battle.webp',
 				'./img/obsidian_wyvern_clan_battle.webp',
-				'./img/Lesath_pult_clan_battle.webp'
+				'./img/Lesath_pult_clan_battle.webp',
+				'./img/wyvern_clan_battle.webp',
+				'./img/wild_griffon_clan_battle.webp',
+				'./img/sky_valkyrie_clan_battle.webp',
+				'./img/master_senri_clan_battle.webp',
+				'./img/sagittarius_clan_battle.webp',
 			]
 		}
 	},
