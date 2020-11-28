@@ -19,9 +19,9 @@ export default {
 			names: [
 				'アオイ', 'アオイ (編入生)', 'アカリ', 'アカリ (エンジェル)', 'アキノ', 'アヤネ', 'アユミ', 'アユミ (ワンダー)', 'アリサ', 'アン', 'アンナ', 'イオ', 'イノリ', 'イリヤ', 'エリコ', 'カオリ', 'カスミ',
 				'カスミ (マジカル)', 'カヤ', 'キャル', 'キョウカ', 'クウカ', 'クウカ (オーエド)', 'クリスティーナ', 'クルミ', 'グレア', 'クロエ', 'コッコロ', 'コッコロ (プリンセス)', 'サレン', 'ジータ', 'シオリ',
-				'シオリ (マジカル)', 'シズル', 'シノブ', 'ジュン', 'スズナ', 'スズメ', 'タマキ', 'チエル', 'チカ', 'ツムギ', 'トモ', 'ナナカ', 'ニノン', 'ニノン (オーエド)', 'ネネカ', 'ノゾミ', 'ハツネ', 'ヒヨリ', 'ペコリーヌ',
-				'ペコリーヌ (プリンセス)', 'マコト', 'マツリ', 'マヒル', 'マヒル (レンジャー)', 'マホ', 'ミサキ', 'ミサト', 'ミソギ', 'ミツキ', 'ミフユ', 'ミミ', 'ミヤコ', 'ムイミ', 'モニカ', 'モニカ (マジカル)', 'ユイ',
-				'ユイ (プリンセス)', 'ユカリ', 'ユキ', 'ユニ', 'ヨリ', 'ヨリ (エンジェル)', 'ラビリスタ', 'リノ', 'リノ (ワンダー)', 'リマ', 'リン', 'リン (レンジャー)', 'ルゥ', 'ルカ', 'ルナ', 'レイ'
+				'シオリ (マジカル)', 'シズル', 'シノブ', 'ジュン', 'スズナ', 'スズメ', 'タマキ', 'チエル', 'チカ', 'ツムギ', 'トモ', 'トモ (マジカル)', 'ナナカ', 'ニノン', 'ニノン (オーエド)', 'ネネカ', 'ノゾミ', 'ハツネ',
+				'ヒヨリ', 'ペコリーヌ', 'ペコリーヌ (プリンセス)', 'マコト', 'マツリ', 'マヒル', 'マヒル (レンジャー)', 'マホ', 'ミサキ', 'ミサト', 'ミソギ', 'ミツキ', 'ミフユ', 'ミミ', 'ミヤコ', 'ムイミ', 'モニカ',
+				'モニカ (マジカル)', 'ユイ', 'ユイ (プリンセス)', 'ユカリ', 'ユキ', 'ユニ', 'ヨリ', 'ヨリ (エンジェル)', 'ラビリスタ', 'リノ', 'リノ (ワンダー)', 'リマ', 'リン', 'リン (レンジャー)', 'ルゥ', 'ルカ', 'ルナ', 'レイ'
 			],
 			stickers: [
 				'./img/aoi_album.webp', './img/aoi_hennyusei_album.webp', './img/akari_album.webp', './img/akari_angel_album.webp', './img/akino_album.webp',
@@ -31,7 +31,7 @@ export default {
 				'./img/kuuka_oedo_album.webp', './img/kurisu_album.webp', './img/kurumi_album.webp', './img/gurea_album.webp', './img/kuroe_album.webp', './img/kokkoro_album.webp',
 				'./img/kokkoro_princess_album.webp', './img/saren_album.webp', './img/jita_album.webp', './img/shiori_album.webp', './img/shiori_magical_album.webp',
 				'./img/shizuru_album.webp', './img/shinobu_album.webp', './img/jun_album.webp', './img/suzuna_album.webp', './img/suzume_album.webp', './img/tamaki_album.webp',
-				'./img/chieru_album.webp', './img/chika_album.webp', './img/tsumugi_album.webp', './img/tomo_album.webp', './img/nanaka_album.webp','./img/ninon_album.webp',
+				'./img/chieru_album.webp', './img/chika_album.webp', './img/tsumugi_album.webp', './img/tomo_album.webp', './img/tomo_magical_album.webp', './img/nanaka_album.webp','./img/ninon_album.webp',
 				'./img/ninon_oedo_album.webp', './img/neneka_album.webp', './img/nozomi_album.webp', './img/hatsune_album.webp', './img/hiyori_album.webp', './img/peko_album.webp',
 				'./img/peko_princess_album.webp', './img/makoto_album.webp', './img/matsuri_album.webp', './img/mahiru_album.webp', './img/mahiru_ranger_album.webp',
 				'./img/maho_album.webp', './img/misaki_album.webp', './img/misato_album.webp', './img/misogi_album.webp', './img/mitsuki_album.webp', './img/mihuyu_album.webp',
