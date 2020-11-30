@@ -6,8 +6,7 @@
 			<div class="uk-text-bold uk-margin-top">{{ name }}</div>
 			<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-small uk-text-center uk-margin-top" uk-grid>
 				<div v-for="sticker in stickers[i]">
-					<div><img v-bind:id="sticker" v-bind:src="sticker"></div>
-					<div v-if="clipboardImpled"><button v-on:click="$emit('click', sticker)" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
+					<img v-bind:id="sticker" v-bind:src="sticker">
 				</div>
 			</div>
 		</template>
@@ -17,7 +16,6 @@
 export default {
 	data: function() {
 		return {
-			clipboardImpled: typeof navigator.clipboard.write !== 'undefined',
 			names: [
 				'美食殿',
 				'トゥインクルウィッシュ',

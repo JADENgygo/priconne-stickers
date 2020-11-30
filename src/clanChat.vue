@@ -6,7 +6,6 @@
 			<div v-for="(name, i) in names">
 				<div class="uk-text-bold uk-margin-top uk-margin-small-bottom">{{ name }}</div>
 				<div><img v-bind:id="stikcers[i]" v-bind:src="stikcers[i]"></div>
-				<div v-if="clipboardImpled"><button v-on:click="$emit('click', stikcers[i])" class="uk-button uk-button-default uk-button-small uk-margin-small-top">画像コピー</button></div>
 			</div>
 		</div>
 	</div>
@@ -15,7 +14,6 @@
 export default {
 	data: function() {
 		return {
-			clipboardImpled: typeof navigator.clipboard.write !== 'undefined',
 			names: [
 				'ペコリーヌ',
 				'コッコロ',
