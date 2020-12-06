@@ -1,6 +1,6 @@
 <template>
-	<div class="uk-container uk-margin-top">
-		<ul class="uk-list uk-list-disc">
+	<div class="uk-container uk-margin-top uk-text-center">
+		<ul class="uk-list uk-list-disc list">
 			<li class="uk-link-text"><router-link to="/guild-house">ギルドハウス</router-link></li>
 			<li class="uk-link-text"><router-link to="/clan-chat">クランチャット</router-link></li>
 			<li class="uk-link-text"><router-link to="/album">思い出アルバム</router-link></li>
@@ -17,4 +17,8 @@
 <script>
 </script>
 <style scoped>
+.list {
+	display: inline-block;
+	text-align: left;
+}
 </style>
