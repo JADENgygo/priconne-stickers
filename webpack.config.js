@@ -29,15 +29,6 @@ module.exports = {
 					presets: ['@babel/preset-env']
 				}
 			},
-			/*
-			{
-				test: /\.webp$/,
-				loader: 'url-loader',
-				options: {
-					esModule: false
-				}
-			}
-			*/
 		]
 	},
 	resolve: {
