@@ -1,7 +1,7 @@
 <template>
 	<div class="uk-container">
-		<div class="uk-margin-top">ギルドハウス</div>
 		<div class="uk-margin-top"><router-link to="/">トップページ</router-link></div>
+		<div class="uk-margin-top">ギルドハウス</div>
 		<template v-for="(name, i) in names">
 			<div class="uk-text-bold uk-margin-top">{{ name }}</div>
 			<div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-small uk-text-center uk-margin-top" uk-grid>

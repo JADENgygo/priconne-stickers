@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<div class="uk-margin-top">{{ title[subject] }}</div>
 		<div class="uk-margin-top"><router-link to="/">トップページ</router-link></div>
+		<div class="uk-margin-top">{{ title[subject] }}</div>
 		<div uk-grid class="uk-grid-small uk-margin-top uk-text-center uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l">
 			<div v-for="(name, i) in content[subject].names" v-bind:key="name">
 				<div class="uk-text-bold uk-margin-small-bottom">{{ name }}</div>
