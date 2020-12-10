@@ -28,9 +28,9 @@ export default {
 						'イリヤ', 'クウカ', 'タマキ', 'ミフユ', 'シズル', 'ミサキ', 'モニカ'
 					],
 					stickers: [
-						'./img/peko.webp', './img/kokkoro.webp', './img/kyaru.webp', './img/hiyori.webp', './img/yui.webp', './img/rei.webp', './img/misogi.webp', './img/anna.webp', './img/maho.webp', './img/rino.webp', './img/hatsune.webp', './img/suzuna.webp',
-						'./img/kaori.webp', './img/mimi.webp', './img/kurumi.webp', './img/yori.webp', './img/ayane.webp', './img/suzume.webp', './img/eriko.webp', './img/saren.webp', './img/nozomi.webp', './img/shinobu.webp', './img/yukari.webp', './img/kyouka.webp',
-						'./img/aoi.webp', './img/iriya.webp', './img/kuuka.webp', './img/tamaki.webp', './img/mihuyu.webp', './img/shizuru.webp', './img/misaki.webp', './img/monika.webp'
+						'./img/clan_chat/peko.webp', './img/clan_chat/kokkoro.webp', './img/clan_chat/kyaru.webp', './img/clan_chat/hiyori.webp', './img/clan_chat/yui.webp', './img/clan_chat/rei.webp', './img/clan_chat/misogi.webp', './img/clan_chat/anna.webp', './img/clan_chat/maho.webp', './img/clan_chat/rino.webp', './img/clan_chat/hatsune.webp', './img/clan_chat/suzuna.webp',
+						'./img/clan_chat/kaori.webp', './img/clan_chat/mimi.webp', './img/clan_chat/kurumi.webp', './img/clan_chat/yori.webp', './img/clan_chat/ayane.webp', './img/clan_chat/suzume.webp', './img/clan_chat/eriko.webp', './img/clan_chat/saren.webp', './img/clan_chat/nozomi.webp', './img/clan_chat/shinobu.webp', './img/clan_chat/yukari.webp', './img/clan_chat/kyouka.webp',
+						'./img/clan_chat/aoi.webp', './img/clan_chat/iriya.webp', './img/clan_chat/kuuka.webp', './img/clan_chat/tamaki.webp', './img/clan_chat/mihuyu.webp', './img/clan_chat/shizuru.webp', './img/clan_chat/misaki.webp', './img/clan_chat/monika.webp'
 					],
 				},
 				'album': {
@@ -42,14 +42,14 @@ export default {
 						'モニカ (マジカル)', 'ユイ', 'ユイ (プリンセス)', 'ユカリ', 'ユキ', 'ユニ', 'ヨリ', 'ヨリ (エンジェル)', 'ラビリスタ', 'リノ', 'リノ (ワンダー)', 'リマ', 'リン', 'リン (レンジャー)', 'ルゥ', 'ルカ', 'ルナ', 'レイ'
 					],
 					stickers: [
-						'./img/aoi_album.webp', './img/aoi_hennyusei_album.webp', './img/akari_album.webp', './img/akari_angel_album.webp', './img/akino_album.webp', './img/ayane_album.webp', './img/ayumi_album.webp', './img/ayumi_wonder_album.webp', './img/arisa_album.webp', './img/an_album.webp', './img/anna_album.webp',
-						'./img/io_album.webp', './img/inori_album.webp', './img/iriya_album.webp', './img/eriko_album.webp', './img/kaori_album.webp', './img/kasumi_album.webp', './img/kasumi_magical_album.webp', './img/kaya_album.webp', './img/kyaru_album.webp', './img/kyouka_album.webp', './img/kuuka_album.webp',
-						'./img/kuuka_oedo_album.webp', './img/kurisu_album.webp', './img/kurumi_album.webp', './img/gurea_album.webp', './img/kuroe_album.webp', './img/kokkoro_album.webp', './img/kokkoro_princess_album.webp', './img/saren_album.webp', './img/jita_album.webp', './img/shiori_album.webp', './img/shiori_magical_album.webp',
-						'./img/shizuru_album.webp', './img/shinobu_album.webp', './img/jun_album.webp', './img/suzuna_album.webp', './img/suzume_album.webp', './img/tamaki_album.webp', './img/chieru_album.webp', './img/chika_album.webp', './img/tsumugi_album.webp', './img/tomo_album.webp', './img/tomo_magical_album.webp', './img/nanaka_album.webp','./img/ninon_album.webp',
-						'./img/ninon_oedo_album.webp', './img/neneka_album.webp', './img/nozomi_album.webp', './img/hatsune_album.webp', './img/hiyori_album.webp', './img/peko_album.webp', './img/peko_princess_album.webp', './img/makoto_album.webp', './img/matsuri_album.webp', './img/mahiru_album.webp', './img/mahiru_ranger_album.webp',
-						'./img/maho_album.webp', './img/misaki_album.webp', './img/misato_album.webp', './img/misogi_album.webp', './img/mitsuki_album.webp', './img/mihuyu_album.webp', './img/mimi_album.webp', './img/miyako_album.webp', './img/muimi_album.webp', './img/monika_album.webp', './img/monika_magical_album.webp', './img/yui_album.webp',
-						'./img/yui_princess_album.webp', './img/yukari_album.webp', './img/yuki_album.webp', './img/yuni_album.webp', './img/yori_album.webp', './img/yori_angel_album.webp', './img/rabirisuta_album.webp', './img/rino_album.webp', './img/rino_wonder_album.webp', './img/rima_album.webp', './img/rin_album.webp',
-						'./img/rin_ranger_album.webp', './img/ruu_album.webp', './img/ruka_album.webp', './img/runa_album.webp', './img/rei_album.webp'
+						'./img/album/aoi.webp', './img/album/aoi_hennyusei.webp', './img/album/akari.webp', './img/album/akari_angel.webp', './img/album/akino.webp', './img/album/ayane.webp', './img/album/ayumi.webp', './img/album/ayumi_wonder.webp', './img/album/arisa.webp', './img/album/an.webp', './img/album/anna.webp',
+						'./img/album/io.webp', './img/album/inori.webp', './img/album/iriya.webp', './img/album/eriko.webp', './img/album/kaori.webp', './img/album/kasumi.webp', './img/album/kasumi_magical.webp', './img/album/kaya.webp', './img/album/kyaru.webp', './img/album/kyouka.webp', './img/album/kuuka.webp',
+						'./img/album/kuuka_oedo.webp', './img/album/kurisu.webp', './img/album/kurumi.webp', './img/album/gurea.webp', './img/album/kuroe.webp', './img/album/kokkoro.webp', './img/album/kokkoro_princess.webp', './img/album/saren.webp', './img/album/jita.webp', './img/album/shiori.webp', './img/album/shiori_magical.webp',
+						'./img/album/shizuru.webp', './img/album/shinobu.webp', './img/album/jun.webp', './img/album/suzuna.webp', './img/album/suzume.webp', './img/album/tamaki.webp', './img/album/chieru.webp', './img/album/chika.webp', './img/album/tsumugi.webp', './img/album/tomo.webp', './img/album/tomo_magical.webp', './img/album/nanaka.webp','./img/album/ninon.webp',
+						'./img/album/ninon_oedo.webp', './img/album/neneka.webp', './img/album/nozomi.webp', './img/album/hatsune.webp', './img/album/hiyori.webp', './img/album/peko.webp', './img/album/peko_princess.webp', './img/album/makoto.webp', './img/album/matsuri.webp', './img/album/mahiru.webp', './img/album/mahiru_ranger.webp',
+						'./img/album/maho.webp', './img/album/misaki.webp', './img/album/misato.webp', './img/album/misogi.webp', './img/album/mitsuki.webp', './img/album/mihuyu.webp', './img/album/mimi.webp', './img/album/miyako.webp', './img/album/muimi.webp', './img/album/monika.webp', './img/album/monika_magical.webp', './img/album/yui.webp',
+						'./img/album/yui_princess.webp', './img/album/yukari.webp', './img/album/yuki.webp', './img/album/yuni.webp', './img/album/yori.webp', './img/album/yori_angel.webp', './img/album/rabirisuta.webp', './img/album/rino.webp', './img/album/rino_wonder.webp', './img/album/rima.webp', './img/album/rin.webp',
+						'./img/album/rin_ranger.webp', './img/album/ruu.webp', './img/album/ruka.webp', './img/album/runa.webp', './img/album/rei.webp'
 					]
 				},
 				'clan-battle': {
@@ -57,8 +57,8 @@ export default {
 						'ゴブリングレート', 'ライライ', 'レイスロード', 'ダークガーゴイル', 'グラットン', 'オークチーフ', 'オブシダンワイバーン', 'レサトパルト', 'ワイバーン', 'ワイルドグリフォン', 'スカイワルキューレ', 'マスターセンリ', 'サジタリウス'
 					],
 					stickers: [
-						'./img/goblin_great_clan_battle.webp', './img/rairai_clan_battle.webp', './img/wraith_lord_clan_battle.webp', './img/dark_gargoyle_clan_battle.webp', './img/guratton_clan_battle.webp', './img/orc_chief_clan_battle.webp', './img/obsidian_wyvern_clan_battle.webp',
-						'./img/Lesath_pult_clan_battle.webp', './img/wyvern_clan_battle.webp', './img/wild_griffon_clan_battle.webp', './img/sky_valkyrie_clan_battle.webp', './img/master_senri_clan_battle.webp', './img/sagittarius_clan_battle.webp',
+						'./img/clan_battle/goblin_great.webp', './img/clan_battle/rairai.webp', './img/clan_battle/wraith_lord.webp', './img/clan_battle/dark_gargoyle.webp', './img/clan_battle/guratton.webp', './img/clan_battle/orc_chief.webp', './img/clan_battle/obsidian_wyvern.webp',
+						'./img/clan_battle/Lesath_pult.webp', './img/clan_battle/wyvern.webp', './img/clan_battle/wild_griffon.webp', './img/clan_battle/sky_valkyrie.webp', './img/clan_battle/master_senri.webp', './img/clan_battle/sagittarius.webp',
 					]
 				},
 				'scramble': {
@@ -68,9 +68,9 @@ export default {
 						'極上カカオ'
 					],
 					stickers: [
-						'./img/ordinary_cacao_valentine.webp',
-						'./img/ripe_cacao_valentine.webp',
-						'./img/best_cacao_valentine.webp'
+						'./img/scramble/ordinary_cacao.webp',
+						'./img/scramble/ripe_cacao.webp',
+						'./img/scramble/best_cacao.webp'
 					]
 				},
 				'giant-slalom': {
@@ -79,10 +79,10 @@ export default {
 						'目回し', 'ドリル'
 					],
 					stickers: [
-						'./img/geyser_giant_slalom.webp', './img/tornado_giant_slalom.webp', './img/headwind_giant_slalom.webp', './img/banana_jump_giant_slalom.webp', './img/ultra_low_flight_giant_slalom.webp', './img/ayumis_fan_giant_slalom.webp',
-						'./img/jizu_giant_slalom.webp', './img/super_ball_giant_slalom.webp', './img/lightning_strike_giant_slalom.webp', './img/banana_slide_giant_slalom.webp', './img/atmospheric_entry_giant_slalom.webp', './img/tailwind_giant_slalom.webp',
-						'./img/ninons_explosive_ninja_giant_slalom.webp', './img/rocket_giant_slalom.webp', './img/belly_slide_giant_slalom.webp', './img/mesarthim_giant_slalom.webp', './img/akudaikan_statue_giant_slalom.webp', './img/downpour_giant_slalom.webp',
-						'./img/giddy_giant_slalom.webp', './img/drill_giant_slalom.webp'
+						'./img/giant_slalom/geyser.webp', './img/giant_slalom/tornado.webp', './img/giant_slalom/headwind.webp', './img/giant_slalom/banana_jump.webp', './img/giant_slalom/ultra_low_flight.webp', './img/giant_slalom/ayumis_fan.webp',
+						'./img/giant_slalom/jizu.webp', './img/giant_slalom/super_ball.webp', './img/giant_slalom/lightning_strike.webp', './img/giant_slalom/banana_slide.webp', './img/giant_slalom/atmospheric_entry.webp', './img/giant_slalom/tailwind.webp',
+						'./img/giant_slalom/ninons_explosive_ninja.webp', './img/giant_slalom/rocket.webp', './img/giant_slalom/belly_slide.webp', './img/giant_slalom/mesarthim.webp', './img/giant_slalom/akudaikan_statue.webp', './img/giant_slalom/downpour.webp',
+						'./img/giant_slalom/giddy.webp', './img/giant_slalom/drill.webp'
 					]
 				},
 				'shiritori': {
@@ -96,21 +96,21 @@ export default {
 						'ツムギ', 'アユミ', 'ルカ', 'ジータ', 'ペコリーヌ', 'コッコロ', 'キャル', 'ムイミ', 'アリサ', 'ネネカ', 'クリスティーナ', 'イノリ', 'カヤ', 'ホマレ', 'クロエ', 'チエル', 'ユニ'
 					],
 					stickers: [
-						'./img/apple_shiritori.webp', './img/gorilla_shiritori.webp', './img/trumpet_shiritori.webp', './img/pineapple_shiritori.webp', './img/ruby_shiritori.webp', './img/beer_shiritori.webp', './img/bow_and_row_shiritori.webp', './img/note_shiritori.webp', './img/paint_shiritori.webp', './img/sword_shiritori.webp',
-						'./img/glasses_shiritori.webp', './img/loupe_shiritori.webp', './img/meat_shiritori.webp', './img/moon_shiritori.webp', './img/bat_shiritori.webp', './img/bird_shiritori.webp', './img/shoes_shiritori.webp', './img/cat_shiritori.webp', './img/goldfish_shiritori.webp', './img/mouse_shiritori.webp',
-						'./img/egg_shiritori.webp', './img/ship_shiritori.webp', './img/milk_shiritori.webp', './img/chocolate_shiritori.webp', './img/acorn_shiritori.webp', './img/strawberry_shiritori.webp', './img/tiger_shiritori.webp', './img/stuffed_animal_shiritori.webp', './img/bomb_shiritori.webp', './img/watermelon_shiritori.webp',
-						'./img/horse_shiritori.webp', './img/chair_shiritori.webp', './img/sea_shiritori.webp', './img/hermit_crab_shiritori.webp', './img/whistle_shiritori.webp', './img/book_shiritori.webp', './img/fish_shiritori.webp', './img/tree_shiritori.webp', './img/candy_shiritori.webp', './img/hammer_shiritori.webp',
-						'./img/star_shiritori.webp', './img/hat_shiritori.webp', './img/cup_shiritori.webp', './img/dog_shiritori.webp', './img/flag_shiritori.webp', './img/cake_shiritori.webp', './img/microphone_shiritori.webp', './img/lipstick_shiritori.webp', './img/mochi_shiritori.webp', './img/fairy_shiritori.webp',
-						'./img/umbrella_shiritori.webp', './img/dice_shiritori.webp', './img/letter_shiritori.webp', './img/grape_shiritori.webp', './img/sheep_shiritori.webp', './img/tofu_shiritori.webp', './img/duck_shiritori.webp', './img/dragonfly_shiritori.webp', './img/leaf_shiritori.webp', './img/ring_shiritori.webp',
-						'./img/rope_shiritori.webp', './img/shield_shiritori.webp', './img/money_shiritori.webp', './img/pudding_shiritori.webp', './img/necklace_shiritori.webp', './img/rice_ear_shiritori.webp', './img/soy_sauce_shiritori.webp', './img/belt_conveyor_shiritori.webp', './img/chandelier_shiritori.webp', './img/salt_shiritori.webp',
-						'./img/whirlpool_shiritori.webp', './img/rod_shiritori.webp', './img/pot_shiritori.webp', './img/seesaw_shiritori.webp', './img/brush_shiritori.webp', './img/work_out_shiritori.webp', './img/ghost_shiritori.webp', './img/hiyori_shiritori.webp', './img/yui_shiritori.webp', './img/rei_shiritori.webp',
-						'./img/misogi_shiritori.webp', './img/matsuri_shiritori.webp', './img/akari_shiritori.webp', './img/miyako_shiritori.webp', './img/yuki_shiritori.webp', './img/anna_shiritori.webp', './img/maho_shiritori.webp', './img/rino_shiritori.webp', './img/hatsune_shiritori.webp', './img/nanaka_shiritori.webp',
-						'./img/kasumi_shiritori.webp', './img/misato_shiritori.webp', './img/suzuna_shiritori.webp', './img/kaori_shiritori.webp', './img/io_shiritori.webp', './img/mimi_shiritori.webp', './img/kurumi_shiritori.webp', './img/yori_shiritori.webp', './img/ayane_shiritori.webp', './img/suzume_shiritori.webp',
-						'./img/rin_shiritori.webp', './img/eriko_shiritori.webp', './img/saren_shiritori.webp', './img/nozomi_shiritori.webp', './img/ninon_shiritori.webp', './img/shinobu_shiritori.webp', './img/akino_shiritori.webp', './img/mahiru_shiritori.webp', './img/yukari_shiritori.webp', './img/kyouka_shiritori.webp',
-						'./img/tomo_shiritori.webp', './img/shiori_shiritori.webp', './img/aoi_shiritori.webp', './img/chika_shiritori.webp', './img/makoto_shiritori.webp', './img/iriya_shiritori.webp', './img/kuuka_shiritori.webp', './img/tamaki_shiritori.webp', './img/jun_shiritori.webp', './img/mihuyu_shiritori.webp',
-						'./img/shizuru_shiritori.webp', './img/misaki_shiritori.webp', './img/mitsuki_shiritori.webp', './img/rima_shiritori.webp', './img/monika_shiritori.webp', './img/tsumugi_shiritori.webp', './img/ayumi_shiritori.webp', './img/ruka_shiritori.webp', './img/jita_shiritori.webp', './img/peko_shiritori.webp',
-						'./img/kokkoro_shiritori.webp', './img/kyaru_shiritori.webp', './img/muimi_shiritori.webp', './img/arisa_shiritori.webp', './img/neneka_shiritori.webp', './img/kurisu_shiritori.webp', './img/inori_shiritori.webp', './img/kaya_shiritori.webp', './img/homare_shiritori.webp', './img/kuroe_shiritori.webp',
-						'./img/chieru_shiritori.webp', './img/yuni_shiritori.webp'
+						'./img/shiritori/apple.webp', './img/shiritori/gorilla.webp', './img/shiritori/trumpet.webp', './img/shiritori/pineapple.webp', './img/shiritori/ruby.webp', './img/shiritori/beer.webp', './img/shiritori/bow_and_row.webp', './img/shiritori/note.webp', './img/shiritori/paint.webp', './img/shiritori/sword.webp',
+						'./img/shiritori/glasses.webp', './img/shiritori/loupe.webp', './img/shiritori/meat.webp', './img/shiritori/moon.webp', './img/shiritori/bat.webp', './img/shiritori/bird.webp', './img/shiritori/shoes.webp', './img/shiritori/cat.webp', './img/shiritori/goldfish.webp', './img/shiritori/mouse.webp',
+						'./img/shiritori/egg.webp', './img/shiritori/ship.webp', './img/shiritori/milk.webp', './img/shiritori/chocolate.webp', './img/shiritori/acorn.webp', './img/shiritori/strawberry.webp', './img/shiritori/tiger.webp', './img/shiritori/stuffed_animal.webp', './img/shiritori/bomb.webp', './img/shiritori/watermelon.webp',
+						'./img/shiritori/horse.webp', './img/shiritori/chair.webp', './img/shiritori/sea.webp', './img/shiritori/hermit_crab.webp', './img/shiritori/whistle.webp', './img/shiritori/book.webp', './img/shiritori/fish.webp', './img/shiritori/tree.webp', './img/shiritori/candy.webp', './img/shiritori/hammer.webp',
+						'./img/shiritori/star.webp', './img/shiritori/hat.webp', './img/shiritori/cup.webp', './img/shiritori/dog.webp', './img/shiritori/flag.webp', './img/shiritori/cake.webp', './img/shiritori/microphone.webp', './img/shiritori/lipstick.webp', './img/shiritori/mochi.webp', './img/shiritori/fairy.webp',
+						'./img/shiritori/umbrella.webp', './img/shiritori/dice.webp', './img/shiritori/letter.webp', './img/shiritori/grape.webp', './img/shiritori/sheep.webp', './img/shiritori/tofu.webp', './img/shiritori/duck.webp', './img/shiritori/dragonfly.webp', './img/shiritori/leaf.webp', './img/shiritori/ring.webp',
+						'./img/shiritori/rope.webp', './img/shiritori/shield.webp', './img/shiritori/money.webp', './img/shiritori/pudding.webp', './img/shiritori/necklace.webp', './img/shiritori/rice_ear.webp', './img/shiritori/soy_sauce.webp', './img/shiritori/belt_conveyor.webp', './img/shiritori/chandelier.webp', './img/shiritori/salt.webp',
+						'./img/shiritori/whirlpool.webp', './img/shiritori/rod.webp', './img/shiritori/pot.webp', './img/shiritori/seesaw.webp', './img/shiritori/brush.webp', './img/shiritori/work_out.webp', './img/shiritori/ghost.webp', './img/shiritori/hiyori.webp', './img/shiritori/yui.webp', './img/shiritori/rei.webp',
+						'./img/shiritori/misogi.webp', './img/shiritori/matsuri.webp', './img/shiritori/akari.webp', './img/shiritori/miyako.webp', './img/shiritori/yuki.webp', './img/shiritori/anna.webp', './img/shiritori/maho.webp', './img/shiritori/rino.webp', './img/shiritori/hatsune.webp', './img/shiritori/nanaka.webp',
+						'./img/shiritori/kasumi.webp', './img/shiritori/misato.webp', './img/shiritori/suzuna.webp', './img/shiritori/kaori.webp', './img/shiritori/io.webp', './img/shiritori/mimi.webp', './img/shiritori/kurumi.webp', './img/shiritori/yori.webp', './img/shiritori/ayane.webp', './img/shiritori/suzume.webp',
+						'./img/shiritori/rin.webp', './img/shiritori/eriko.webp', './img/shiritori/saren.webp', './img/shiritori/nozomi.webp', './img/shiritori/ninon.webp', './img/shiritori/shinobu.webp', './img/shiritori/akino.webp', './img/shiritori/mahiru.webp', './img/shiritori/yukari.webp', './img/shiritori/kyouka.webp',
+						'./img/shiritori/tomo.webp', './img/shiritori/shiori.webp', './img/shiritori/aoi.webp', './img/shiritori/chika.webp', './img/shiritori/makoto.webp', './img/shiritori/iriya.webp', './img/shiritori/kuuka.webp', './img/shiritori/tamaki.webp', './img/shiritori/jun.webp', './img/shiritori/mihuyu.webp',
+						'./img/shiritori/shizuru.webp', './img/shiritori/misaki.webp', './img/shiritori/mitsuki.webp', './img/shiritori/rima.webp', './img/shiritori/monika.webp', './img/shiritori/tsumugi.webp', './img/shiritori/ayumi.webp', './img/shiritori/ruka.webp', './img/shiritori/jita.webp', './img/shiritori/peko.webp',
+						'./img/shiritori/kokkoro.webp', './img/shiritori/kyaru.webp', './img/shiritori/muimi.webp', './img/shiritori/arisa.webp', './img/shiritori/neneka.webp', './img/shiritori/kurisu.webp', './img/shiritori/inori.webp', './img/shiritori/kaya.webp', './img/shiritori/homare.webp', './img/shiritori/kuroe.webp',
+						'./img/shiritori/chieru.webp', './img/shiritori/yuni.webp'
 					]
 				},
 				'cheese': {
@@ -119,9 +119,9 @@ export default {
 						'怒髪天のチュウジ', '金庫破りのチュウサブロウ'
 					],
 					stickers: [
-						'./img/start_observation_cheese.webp', './img/ripe_cheese.webp', './img/beautiful_blue_cheese.webp', './img/temptation1_cheese.webp', './img/temptation2_cheese.webp', './img/mystery_remains_mystery_cheese.webp', './img/mallet_cheese.webp',
-						'./img/magical_mallet_cheese.webp', './img/harisen_cheese.webp', './img/mallet_of_luck_cheese.webp', './img/chuu_cheese.webp', './img/chuuta_cheese.webp', './img/chuuya_cheese.webp', './img/chuuza_cheese.webp', './img/chick_cheese.webp',
-						'./img/masurao_chuuji_cheese.webp', './img/dohatsuten_chuuji_cheese.webp', './img/chuusaburou_cheese.webp'
+						'./img/cheese/start_observation.webp', './img/cheese/ripe.webp', './img/cheese/beautiful_blue.webp', './img/cheese/temptation1.webp', './img/cheese/temptation2.webp', './img/cheese/mystery_remains_mystery.webp', './img/cheese/mallet.webp',
+						'./img/cheese/magical_mallet.webp', './img/cheese/harisen.webp', './img/cheese/mallet_of_luck.webp', './img/cheese/chuu.webp', './img/cheese/chuuta.webp', './img/cheese/chuuya.webp', './img/cheese/chuuza.webp', './img/cheese/chick.webp',
+						'./img/cheese/masurao_chuuji.webp', './img/cheese/dohatsuten_chuuji.webp', './img/cheese/chuusaburou.webp'
 					]
 				},
 				'forest': {
@@ -130,8 +130,8 @@ export default {
 						'さすがBB団の団長さん!', 'マンドラゴラでパニック', '最終日'
 					],
 					stickers: [
-						'./img/day1_chicken.webp', './img/day2_chicken.webp', './img/day3_chicken.webp', './img/day4_chicken.webp', './img/day5_chicken.webp', './img/day6_chicken.webp', './img/day7_chicken.webp', './img/day8_chicken.webp', './img/day9_chicken.webp',
-						'./img/day10_chicken.webp', './img/day11_chicken.webp', './img/day12_chicken.webp', './img/day13_chicken.webp', './img/day14_chicken.webp'
+						'./img/forest/day1.webp', './img/forest/day2.webp', './img/forest/day3.webp', './img/forest/day4.webp', './img/forest/day5.webp', './img/forest/day6.webp', './img/forest/day7.webp', './img/forest/day8.webp', './img/forest/day9.webp',
+						'./img/forest/day10.webp', './img/forest/day11.webp', './img/forest/day12.webp', './img/forest/day13.webp', './img/forest/day14.webp'
 					]
 				},
 				'angel': {
@@ -139,8 +139,8 @@ export default {
 						'次世代へ継承すべき新言語', '私はとても作文が苦手です', '飛翔へと至るまで', '閃きましたわ!', '組み立てにゃ!', '私こんなの書いたっけ…?', 'このままにしておけないわ', '特別講座を終えて', '考察', '試作機完成', '最終工程'
 					],
 					stickers: [
-						'./img/chieru_foundation.webp', './img/kuroe_foundation.webp', './img/yuni_foundation.webp', './img/akino_foundation.webp', './img/tamaki_foundation.webp', './img/yukari_foundation.webp', './img/mihuyu_foundation.webp', './img/mercurius_foundation.webp',
-						'./img/nakayoshix1_foundation.webp', './img/nakayoshix2_foundation.webp', './img/nakayoshix3_foundation.webp'
+						'./img/angel/chieru.webp', './img/angel/kuroe.webp', './img/angel/yuni.webp', './img/angel/akino.webp', './img/angel/tamaki.webp', './img/angel/yukari.webp', './img/angel/mihuyu.webp', './img/angel/mercurius.webp',
+						'./img/angel/nakayoshix1.webp', './img/angel/nakayoshix2.webp', './img/angel/nakayoshix3.webp'
 					]
 				}
 			}
