@@ -17,7 +17,7 @@ export default {
 	data: function() {
 		return {
 			names: [
-				'美食殿',
+				'美食殿 (シェフィちゃん準備中)',
 				'トゥインクルウィッシュ',
 				'ラビリンス',
 				'カルミナ',
