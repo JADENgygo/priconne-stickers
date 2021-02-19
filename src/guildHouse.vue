@@ -17,7 +17,7 @@ export default {
 	data: function() {
 		return {
 			names: [
-				'美食殿 (シェフィちゃん準備中)',
+				'美食殿',
 				'トゥインクルウィッシュ',
 				'ラビリンス',
 				'カルミナ',
@@ -36,7 +36,7 @@ export default {
 				'ドラゴンズネスト'
 			],
 			stickers: [
-				['./img/guild_house/peko.webp', './img/guild_house/kokkoro.webp', './img/guild_house/kyaru.webp'],
+				['./img/guild_house/peko.webp', './img/guild_house/kokkoro.webp', './img/guild_house/kyaru.webp', './img/guild_house/sheffi.webp'],
 				['./img/guild_house/hiyori.webp', './img/guild_house/yui.webp', './img/guild_house/rei.webp'],
 				['./img/guild_house/rabirisuta.webp', './img/guild_house/shizuru.webp', './img/guild_house/rino.webp'],
 				['./img/guild_house/nozomi.webp', './img/guild_house/chika.webp', './img/guild_house/tsumugi.webp'],
