@@ -19,7 +19,7 @@ export default {
 		return {
 			title: {
 				'clan-chat': 'クランチャット', 'album': '思い出アルバム', 'clan-battle': 'クランバトル', 'scramble': 'お兄ちゃん争奪', 'giant-slalom': 'クウカ大回転', 'shiritori': 'しりとりドラゴンズ', 'cheese': 'チーズお守り大作戦', 'forest': '森の臆病者と聖なる学舎の異端児',
-				'angel': '授けの財団と聖なる学舎の異端'
+				'angel': '授けの財団と聖なる学舎の異端', 'connect-bond': '絆、つないで。こころ、結んで。'
 			},
 			content: {
 				'clan-chat': {
@@ -143,6 +143,17 @@ export default {
 					stickers: [
 						'./img/angel/chieru.webp', './img/angel/kuroe.webp', './img/angel/yuni.webp', './img/angel/akino.webp', './img/angel/tamaki.webp', './img/angel/yukari.webp', './img/angel/mihuyu.webp', './img/angel/mercurius.webp',
 						'./img/angel/nakayoshix1.webp', './img/angel/nakayoshix2.webp', './img/angel/nakayoshix3.webp'
+					]
+				},
+				'connect-bond': {
+					names: [
+						'大切なみなさまへ', 'ペコリーヌさまのご挨拶', 'キャルさまの真心', 'わたくしの、主さま', 'あの笑顔はいつも、胸の中に', '懐かしの場所へ', '信じられません…！', '光明と、惑いと', '心の安らぎ、掴むべき未来',
+						'ありがとう、では足りません', 'ただいま、わたくしの食卓'
+					],
+					stickers: [
+						'./img/connect_bond/taisetsunaminasamahe.webp', './img/connect_bond/pekoriinusamanogoaisatsu.webp', './img/connect_bond/kyarusamanomagokoro.webp', './img/connect_bond/watakushinoarujisama.webp',
+						'./img/connect_bond/anoegaohaitsumomunenonakani.webp', './img/connect_bond/natsukashinobashohe.webp', './img/connect_bond/shinjiraremasen.webp', './img/connect_bond/koumyoutotomadoito.webp',
+						'./img/connect_bond/kokoronoyasuragitsukamubekimirai.webp', './img/connect_bond/arigatoudehatarimasen.webp', './img/connect_bond/tadaimawatakushinoshokutaku.webp',
 					]
 				}
 			}

@@ -10,8 +10,9 @@
 export default {
 	data: function() {
 		return {
-			engNames: ['clan-chat', 'album', 'clan-battle', 'scramble', 'giant-slalom', 'shiritori', 'cheese', 'forest', 'angel'],
-			japNames: ['クランチャット', '思い出アルバム', 'クランバトル', 'お兄ちゃん争奪', 'クウカ大回転', 'しりとりドラゴンズ', 'チーズお守り大作戦', '森の臆病者と聖なる学舎の異端児', '授けの財団と聖なる学舎の異端児']
+			engNames: ['clan-chat', 'album', 'clan-battle', 'scramble', 'giant-slalom', 'shiritori', 'cheese', 'forest', 'angel', 'connect-bond'],
+			japNames: ['クランチャット', '思い出アルバム', 'クランバトル', 'お兄ちゃん争奪', 'クウカ大回転', 'しりとりドラゴンズ', 'チーズお守り大作戦', '森の臆病者と聖なる学舎の異端児', '授けの財団と聖なる学舎の異端児',
+				'絆、つないで。こころ、結んで。']
 		};
 	}
 }
