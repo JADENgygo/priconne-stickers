@@ -7,7 +7,13 @@
 		<router-view class="uk-margin-bottom"></router-view>
 	</div>
 </template>
-<script>
+<script lang="ts">
+import Vue from 'vue';
+import Component from 'vue-class-component';
+
+@Component
+export default class Host extends Vue {
+}
 </script>
 <style scoped>
 </style>

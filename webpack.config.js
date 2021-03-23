@@ -2,7 +2,7 @@ const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
-	entry: './src/app.js',
+	entry: './src/app.ts',
 	output: {
 		path: path.resolve(__dirname, './dist'),
 		filename: 'app.js'
@@ -29,10 +29,19 @@ module.exports = {
 					presets: ['@babel/preset-env']
 				}
 			},
+			{
+				test: /\.ts$/,
+				use: [{
+					loader: 'ts-loader',
+					options: {
+						appendTsSuffixTo: [/\.vue$/]
+					}
+				}]
+			}
 		]
 	},
 	resolve: {
-		extensions: ['.js', '.vue', '.json'],
+		extensions: ['.ts', '.js', '.vue', '.json'],
 		alias: {
 			'vue$': 'vue/dist/vue.esm.js'
 		}
