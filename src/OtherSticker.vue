@@ -60,12 +60,13 @@ export default class OtherSticker extends Props {
 		'clan-battle': {
 			names: [
 				'ゴブリングレート', 'ライライ', 'レイスロード', 'ダークガーゴイル', 'グラットン', 'オークチーフ', 'オブシダンワイバーン', 'レサトパルト', 'ワイバーン', 'ワイルドグリフォン', 'スカイワルキューレ', 'マスターセンリ', 'サジタリウス', 'ランドスロース', 'ニードルクリーパー', 'トライロッカー', 'アルゲティ',
-				'ライデン', 'ネプテリオン', 'アクアリオス'
+				'ライデン', 'ネプテリオン', 'アクアリオス', 'バリジスク', 'メサルティム'
 			],
 			stickers: [
 				'./img/clan_battle/goblin_great.webp', './img/clan_battle/rairai.webp', './img/clan_battle/wraith_lord.webp', './img/clan_battle/dark_gargoyle.webp', './img/clan_battle/guratton.webp', './img/clan_battle/orc_chief.webp', './img/clan_battle/obsidian_wyvern.webp',
 				'./img/clan_battle/lesath_pult.webp', './img/clan_battle/wyvern.webp', './img/clan_battle/wild_griffon.webp', './img/clan_battle/sky_valkyrie.webp', './img/clan_battle/master_senri.webp', './img/clan_battle/sagittarius.webp',
-				'./img/clan_battle/land_sloth.webp', './img/clan_battle/needle_creeper.webp', './img/clan_battle/tri_rocker.webp', './img/clan_battle/argeti.webp', './img/clan_battle/raiden.webp', './img/clan_battle/neptalion.webp', './img/clan_battle/aquarius.webp'
+				'./img/clan_battle/land_sloth.webp', './img/clan_battle/needle_creeper.webp', './img/clan_battle/tri_rocker.webp', './img/clan_battle/argeti.webp', './img/clan_battle/raiden.webp', './img/clan_battle/neptalion.webp', './img/clan_battle/aquarius.webp',
+				'./img/clan_battle/basilisk.webp', './img/clan_battle/mesarthim.webp'
 			]
 		},
 		'scramble': {
