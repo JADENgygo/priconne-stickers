@@ -1,8 +1,8 @@
 <template>
-	<div>
+	<div class="uk-container">
 		<div class="uk-margin-top"><router-link to="/">トップページ</router-link></div>
 		<div class="uk-margin-top">{{ title[subject] }}</div>
-		<div class="uk-grid uk-grid-small uk-margin-top uk-text-center uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l">
+		<div uk-grid class="uk-grid-small uk-margin-top uk-text-center uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l">
 			<div v-for="(name, i) in content[subject].names" v-bind:key="name">
 				<div class="uk-text-bold uk-margin-small-bottom">{{ name }}</div>
 				<img v-bind:src="content[subject].stickers[i]">
@@ -42,7 +42,7 @@ export default class OtherSticker extends Props {
 			names: [
 				'アオイ', 'アオイ (編入生)', 'アカリ', 'アカリ (エンジェル)', 'アキノ', 'アヤネ', 'アユミ', 'アユミ (ワンダー)', 'アリサ', 'アン', 'アンナ', 'イオ', 'イノリ', 'イリヤ', 'エリコ', 'カオリ', 'カスミ',
 				'カスミ (マジカル)', 'カヤ', 'キャル', 'キャル (プリンセス)', 'キョウカ', 'クウカ', 'クウカ (オーエド)', 'クリスティーナ', 'クルミ', 'グレア', 'クロエ', 'コッコロ', 'コッコロ (プリンセス)', 'サレン', 'ジータ', 'シェフィ', 'シオリ',
-				'シオリ (マジカル)', 'シズル', 'シノブ', 'ジュン', 'スズナ', 'スズメ', 'タマキ', 'チエル', 'チカ', 'ツムギ', 'トモ', 'トモ (マジカル)', 'ナナカ', 'ニノン', 'ニノン (オーエド)', 'ネネカ', 'ノゾミ', 'ハツネ',
+				'シオリ (マジカル)', 'シズル', 'シノブ', 'ジュン', 'スズナ', 'スズメ', 'タマキ', 'チエル', 'チエル (聖学祭)', 'チカ', 'ツムギ', 'トモ', 'トモ (マジカル)', 'ナナカ', 'ニノン', 'ニノン (オーエド)', 'ネネカ', 'ノゾミ', 'ハツネ',
 				'ヒヨリ', 'ヒヨリ (プリンセス)', 'ペコリーヌ', 'ペコリーヌ (プリンセス)', 'マコト', 'マコト (シンデレラ)', 'マツリ', 'マヒル', 'マヒル (レンジャー)', 'マホ', 'マホ (シンデレラ)', 'ミサキ', 'ミサト', 'ミソギ', 'ミツキ', 'ミフユ', 'ミミ', 'ミヤコ', 'ムイミ', 'モニカ',
 				'モニカ (マジカル)', 'ユイ', 'ユイ (プリンセス)', 'ユカリ', 'ユキ', 'ユニ', 'ヨリ', 'ヨリ (エンジェル)', 'ラビリスタ', 'リノ', 'リノ (ワンダー)', 'リマ', 'リマ (シンデレラ)', 'リン', 'リン (レンジャー)', 'ルゥ', 'ルカ', 'ルナ', 'レイ'
 			],

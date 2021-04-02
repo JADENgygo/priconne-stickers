@@ -1,5 +1,5 @@
 <template>
-	<div class="uk-text-center">
+	<div class="uk-container uk-text-center">
 		<ul class="uk-margin-top uk-list uk-list-disc list">
 			<li><router-link to="/sticker/guild-house">ギルドハウス</router-link></li>
 			<li v-for="(e, i) in engNames"><router-link v-bind:to="'/sticker/' + engNames[i]">{{ japNames[i] }}</router-link></li>
