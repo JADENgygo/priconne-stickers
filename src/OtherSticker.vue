@@ -39,14 +39,14 @@ export default class OtherSticker extends Props {
 		},
 		'album': {
 			names: [
-				'アオイ', 'アオイ (編入生)', 'アカリ', 'アカリ (エンジェル)', 'アキノ', 'アヤネ', 'アユミ', 'アユミ (ワンダー)', 'アリサ', 'アン', 'アンナ', 'イオ', 'イノリ', 'イノリ (タイムトラベル)', 'イリヤ', 'エリコ', 'カオリ', 'カスミ',
+				'アオイ', 'アオイ (作業服)', 'アオイ (編入生)', 'アカリ', 'アカリ (エンジェル)', 'アキノ', 'アヤネ', 'アユミ', 'アユミ (ワンダー)', 'アリサ', 'アン', 'アンナ', 'イオ', 'イノリ', 'イノリ (タイムトラベル)', 'イリヤ', 'エリコ', 'カオリ', 'カスミ',
 				'カスミ (マジカル)', 'カヤ', 'カヤ (タイムトラベル)', 'キャル', 'キャル (プリンセス)', 'キョウカ', 'クウカ', 'クウカ (オーエド)', 'クリスティーナ', 'クルミ', 'グレア', 'クロエ', 'クロエ (聖学祭)', 'コッコロ', 'コッコロ (プリンセス)', 'サレン', 'ジータ', 'シェフィ', 'シオリ',
 				'シオリ (マジカル)', 'シズル', 'シノブ', 'ジュン', 'スズナ', 'スズメ', 'タマキ', 'チエル', 'チエル (聖学祭)', 'チカ', 'ツムギ', 'トモ', 'トモ (マジカル)', 'ナナカ', 'ニノン', 'ニノン (オーエド)', 'ネネカ', 'ノゾミ', 'ハツネ',
 				'ヒヨリ', 'ヒヨリ (プリンセス)', 'ペコリーヌ', 'ペコリーヌ (プリンセス)', 'マコト', 'マコト (シンデレラ)', 'マツリ', 'マヒル', 'マヒル (レンジャー)', 'マホ', 'マホ (シンデレラ)', 'ミサキ', 'ミサト', 'ミソギ', 'ミツキ', 'ミフユ', 'ミミ', 'ミヤコ', 'ムイミ', 'モニカ',
 				'モニカ (マジカル)', 'ユイ', 'ユイ (プリンセス)', 'ユカリ', 'ユキ', 'ユニ', 'ヨリ', 'ヨリ (エンジェル)', 'ラビリスタ', 'リノ', 'リノ (ワンダー)', 'リマ', 'リマ (シンデレラ)', 'リン', 'リン (レンジャー)', 'ルゥ', 'ルカ', 'ルナ', 'レイ'
 			],
 			stickers: [
-				'./img/album/aoi.webp', './img/album/aoi_hennyusei.webp', './img/album/akari.webp', './img/album/akari_angel.webp', './img/album/akino.webp', './img/album/ayane.webp', './img/album/ayumi.webp', './img/album/ayumi_wonder.webp', './img/album/arisa.webp', './img/album/an.webp', './img/album/anna.webp',
+				'./img/album/aoi.webp', './img/album/aoi_work_clothes.webp', './img/album/aoi_hennyusei.webp', './img/album/akari.webp', './img/album/akari_angel.webp', './img/album/akino.webp', './img/album/ayane.webp', './img/album/ayumi.webp', './img/album/ayumi_wonder.webp', './img/album/arisa.webp', './img/album/an.webp', './img/album/anna.webp',
 				'./img/album/io.webp', './img/album/inori.webp', './img/album/inori_timetravel.webp', './img/album/iriya.webp', './img/album/eriko.webp', './img/album/kaori.webp', './img/album/kasumi.webp', './img/album/kasumi_magical.webp', './img/album/kaya.webp', './img/album/kaya_timetravel.webp', './img/album/kyaru.webp', './img/album/kyaru_princess.webp', './img/album/kyouka.webp', './img/album/kuuka.webp',
 				'./img/album/kuuka_oedo.webp', './img/album/kurisu.webp', './img/album/kurumi.webp', './img/album/gurea.webp', './img/album/kuroe.webp', './img/album/kuroe_seigakusai.webp', './img/album/kokkoro.webp', './img/album/kokkoro_princess.webp', './img/album/saren.webp', './img/album/jita.webp', './img/album/sheffi.webp', './img/album/shiori.webp', './img/album/shiori_magical.webp',
 				'./img/album/shizuru.webp', './img/album/shinobu.webp', './img/album/jun.webp', './img/album/suzuna.webp', './img/album/suzume.webp', './img/album/tamaki.webp', './img/album/chieru.webp', './img/album/chieru_seigakusai.webp', './img/album/chika.webp', './img/album/tsumugi.webp', './img/album/tomo.webp', './img/album/tomo_magical.webp', './img/album/nanaka.webp','./img/album/ninon.webp',
@@ -59,13 +59,13 @@ export default class OtherSticker extends Props {
 		'clan-battle': {
 			names: [
 				'ゴブリングレート', 'ライライ', 'レイスロード', 'ダークガーゴイル', 'グラットン', 'オークチーフ', 'オブシダンワイバーン', 'レサトパルト', 'ワイバーン', 'ワイルドグリフォン', 'スカイワルキューレ', 'マスターセンリ', 'サジタリウス', 'ランドスロース', 'ニードルクリーパー', 'トライロッカー', 'アルゲティ',
-				'ライデン', 'ネプテリオン', 'アクアリオス', 'バリジスク', 'メサルティム', 'ティタノタートル', 'ミノタウロス'
+				'ライデン', 'ネプテリオン', 'アクアリオス', 'バリジスク', 'メサルティム', 'ティタノタートル', 'ミノタウロス', 'スピリットホーン', 'ツインピッグス'
 			],
 			stickers: [
 				'./img/clan_battle/goblin_great.webp', './img/clan_battle/rairai.webp', './img/clan_battle/wraith_lord.webp', './img/clan_battle/dark_gargoyle.webp', './img/clan_battle/guratton.webp', './img/clan_battle/orc_chief.webp', './img/clan_battle/obsidian_wyvern.webp',
 				'./img/clan_battle/lesath_pult.webp', './img/clan_battle/wyvern.webp', './img/clan_battle/wild_griffon.webp', './img/clan_battle/sky_valkyrie.webp', './img/clan_battle/master_senri.webp', './img/clan_battle/sagittarius.webp',
 				'./img/clan_battle/land_sloth.webp', './img/clan_battle/needle_creeper.webp', './img/clan_battle/tri_rocker.webp', './img/clan_battle/argeti.webp', './img/clan_battle/raiden.webp', './img/clan_battle/neptalion.webp', './img/clan_battle/aquarius.webp',
-				'./img/clan_battle/basilisk.webp', './img/clan_battle/mesarthim.webp', './img/clan_battle/titanoturtle.webp', './img/clan_battle/minotaur.webp'
+				'./img/clan_battle/basilisk.webp', './img/clan_battle/mesarthim.webp', './img/clan_battle/titanoturtle.webp', './img/clan_battle/minotaur.webp', './img/clan_battle/spirit_horn.webp', './img/clan_battle/twin_pigs.webp'
 			]
 		},
 		'scramble': {
