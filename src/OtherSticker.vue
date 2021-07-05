@@ -23,7 +23,7 @@ const Props = Vue.extend({
 export default class OtherSticker extends Props {
 	title: {[key: string]: string} = {
 		'clan-chat': 'クランチャット', 'album': '思い出アルバム', 'clan-battle': 'クランバトル', 'scramble': 'お兄ちゃん争奪', 'giant-slalom': 'クウカ大回転', 'shiritori': 'しりとりドラゴンズ', 'cheese': 'チーズお守り大作戦', 'forest': '森の臆病者と聖なる学舎の異端児',
-		'angel': '授けの財団と聖なる学舎の異端', 'connect-bond': '絆、つないで。こころ、結んで。'
+		'angel': '授けの財団と聖なる学舎の異端', 'connect-bond': '絆、つないで。こころ、結んで。', 'endless-summer-produce': 'エンドレスサマープロデュース　真夏のふたり占めパラダイス'
 	};
 	content: {[key: string]: {[key: string]: string[]}} = {
 		'clan-chat': {
@@ -160,6 +160,17 @@ export default class OtherSticker extends Props {
 				'./img/connect_bond/taisetsunaminasamahe.webp', './img/connect_bond/pekoriinusamanogoaisatsu.webp', './img/connect_bond/kyarusamanomagokoro.webp', './img/connect_bond/watakushinoarujisama.webp',
 				'./img/connect_bond/anoegaohaitsumomunenonakani.webp', './img/connect_bond/natsukashinobashohe.webp', './img/connect_bond/shinjiraremasen.webp', './img/connect_bond/koumyoutotomadoito.webp',
 				'./img/connect_bond/kokoronoyasuragitsukamubekimirai.webp', './img/connect_bond/arigatoudehatarimasen.webp', './img/connect_bond/tadaimawatakushinoshokutaku.webp',
+			]
+		},
+		'endless-summer-produce': {
+			names: [
+				'1日目', '2日目', '12日目', '17日目', '23日目', '25日目', '27日目', '31日目', 'シズルの思い出', 'エリコの思い出'
+			],
+			stickers: [
+				'./img/endless_summer_produce/endless_summer_produce0.webp', './img/endless_summer_produce/endless_summer_produce1.webp', './img/endless_summer_produce/endless_summer_produce2.webp',
+				'./img/endless_summer_produce/endless_summer_produce3.webp', './img/endless_summer_produce/endless_summer_produce4.webp', './img/endless_summer_produce/endless_summer_produce5.webp',
+				'./img/endless_summer_produce/endless_summer_produce6.webp', './img/endless_summer_produce/endless_summer_produce7.webp', './img/endless_summer_produce/endless_summer_produce8.webp',
+				'./img/endless_summer_produce/endless_summer_produce9.webp',
 			]
 		}
 	};
