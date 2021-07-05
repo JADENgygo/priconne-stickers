@@ -43,7 +43,7 @@ export default class OtherSticker extends Props {
 				'カスミ (マジカル)', 'カヤ', 'カヤ (タイムトラベル)', 'キャル', 'キャル (プリンセス)', 'キョウカ', 'クウカ', 'クウカ (オーエド)', 'クリスティーナ', 'クルミ', 'グレア', 'クロエ', 'クロエ (聖学祭)', 'コッコロ', 'コッコロ (プリンセス)', 'サレン', 'ジータ', 'シェフィ', 'シオリ',
 				'シオリ (マジカル)', 'シズル', 'シノブ', 'ジュン', 'スズナ', 'スズメ', 'タマキ', 'タマキ (作業服)', 'チエル', 'チエル (聖学祭)', 'チカ', 'ツムギ', 'トモ', 'トモ (マジカル)', 'ナナカ', 'ニノン', 'ニノン (オーエド)', 'ネネカ', 'ノゾミ', 'ハツネ',
 				'ヒヨリ', 'ヒヨリ (プリンセス)', 'ペコリーヌ', 'ペコリーヌ (プリンセス)', 'マコト', 'マコト (シンデレラ)', 'マツリ', 'マヒル', 'マヒル (レンジャー)', 'マホ', 'マホ (シンデレラ)', 'ミサキ', 'ミサト', 'ミソギ', 'ミツキ', 'ミフユ', 'ミフユ (作業服)', 'ミミ', 'ミヤコ', 'ムイミ', 'モニカ',
-				'モニカ (マジカル)', 'ユイ', 'ユイ (プリンセス)', 'ユカリ', 'ユキ', 'ユニ', 'ヨリ', 'ヨリ (エンジェル)', 'ラビリスタ', 'リノ', 'リノ (ワンダー)', 'リマ', 'リマ (シンデレラ)', 'リン', 'リン (レンジャー)', 'ルゥ', 'ルカ', 'ルナ', 'レイ'
+				'モニカ (マジカル)', 'ユイ', 'ユイ (プリンセス)', 'ユカリ', 'ユキ', 'ユニ', 'ヨリ', 'ヨリ (エンジェル)', 'ラビリスタ', 'リノ', 'リノ (ワンダー)', 'リマ', 'リマ (シンデレラ)', 'リン', 'リン (レンジャー)', 'ルゥ', 'ルカ', 'ルナ', 'レイ', 'レイ (プリンセス)'
 			],
 			stickers: [
 				'./img/album/aoi.webp', './img/album/aoi_work_clothes.webp', './img/album/aoi_hennyusei.webp', './img/album/akari.webp', './img/album/akari_angel.webp', './img/album/akino.webp', './img/album/ayane.webp', './img/album/ayumi.webp', './img/album/ayumi_wonder.webp', './img/album/arisa.webp', './img/album/an.webp', './img/album/anna.webp',
@@ -53,7 +53,7 @@ export default class OtherSticker extends Props {
 				'./img/album/ninon_oedo.webp', './img/album/neneka.webp', './img/album/nozomi.webp', './img/album/hatsune.webp', './img/album/hiyori.webp', './img/album/hiyori_princess.webp', './img/album/peko.webp', './img/album/peko_princess.webp', './img/album/makoto.webp', './img/album/makoto_cinderella.webp', './img/album/matsuri.webp', './img/album/mahiru.webp', './img/album/mahiru_ranger.webp',
 				'./img/album/maho.webp', './img/album/maho_cinderella.webp', './img/album/misaki.webp', './img/album/misato.webp', './img/album/misogi.webp', './img/album/mitsuki.webp', './img/album/mihuyu.webp', './img/album/mihuyu_work_clothes.webp', './img/album/mimi.webp', './img/album/miyako.webp', './img/album/muimi.webp', './img/album/monika.webp', './img/album/monika_magical.webp', './img/album/yui.webp',
 				'./img/album/yui_princess.webp', './img/album/yukari.webp', './img/album/yuki.webp', './img/album/yuni.webp', './img/album/yori.webp', './img/album/yori_angel.webp', './img/album/rabirisuta.webp', './img/album/rino.webp', './img/album/rino_wonder.webp', './img/album/rima.webp', './img/album/rima_cinderella.webp', './img/album/rin.webp',
-				'./img/album/rin_ranger.webp', './img/album/ruu.webp', './img/album/ruka.webp', './img/album/runa.webp', './img/album/rei.webp'
+				'./img/album/rin_ranger.webp', './img/album/ruu.webp', './img/album/ruka.webp', './img/album/runa.webp', './img/album/rei.webp', './img/album/rei_princess.webp'
 			]
 		},
 		'clan-battle': {
