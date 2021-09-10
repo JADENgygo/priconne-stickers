@@ -29,12 +29,16 @@ export default class OtherSticker extends Props {
 		'clan-chat': {
 			names: [
 				'ペコリーヌ', 'コッコロ', 'キャル', 'ヒヨリ', 'ユイ', 'レイ', 'ミソギ', 'アンナ', 'マホ', 'リノ', 'ハツネ', 'スズナ', 'カオリ', 'ミミ', 'クルミ', 'ヨリ', 'アヤネ', 'スズメ', 'エリコ', 'サレン', 'ノゾミ', 'シノブ', 'ユカリ', 'キョウカ', 'アオイ',
-				'イリヤ', 'クウカ', 'タマキ', 'ミフユ', 'シズル', 'ミサキ', 'モニカ'
+				'イリヤ', 'クウカ', 'タマキ', 'ミフユ', 'シズル', 'ミサキ', 'モニカ', 'アユミ', 'マツリ', 'アカリ', 'ミヤコ', 'ユキ', 'ナナカ', 'カスミ', 'ミサト', 'イオ', 'リン', 'ニノン', 'アキノ', 'マヒル', 'トモ', 'シオリ', 'チカ', 'マコト', 'ジュン',
+				'ミツキ', 'リマ', 'ツムギ', 'ルカ', 'ムイミ', 'シェフィ', 'カヤ', 'イノリ', 'ホマレ', 'ラビリスタ', 'ネネカ', 'クリスティーナ', 'クロエ', 'チエル', 'ユニ'
 			],
 			stickers: [
 				'./img/clan_chat/peko.webp', './img/clan_chat/kokkoro.webp', './img/clan_chat/kyaru.webp', './img/clan_chat/hiyori.webp', './img/clan_chat/yui.webp', './img/clan_chat/rei.webp', './img/clan_chat/misogi.webp', './img/clan_chat/anna.webp', './img/clan_chat/maho.webp', './img/clan_chat/rino.webp', './img/clan_chat/hatsune.webp', './img/clan_chat/suzuna.webp',
 				'./img/clan_chat/kaori.webp', './img/clan_chat/mimi.webp', './img/clan_chat/kurumi.webp', './img/clan_chat/yori.webp', './img/clan_chat/ayane.webp', './img/clan_chat/suzume.webp', './img/clan_chat/eriko.webp', './img/clan_chat/saren.webp', './img/clan_chat/nozomi.webp', './img/clan_chat/shinobu.webp', './img/clan_chat/yukari.webp', './img/clan_chat/kyouka.webp',
-				'./img/clan_chat/aoi.webp', './img/clan_chat/iriya.webp', './img/clan_chat/kuuka.webp', './img/clan_chat/tamaki.webp', './img/clan_chat/mihuyu.webp', './img/clan_chat/shizuru.webp', './img/clan_chat/misaki.webp', './img/clan_chat/monika.webp'
+				'./img/clan_chat/aoi.webp', './img/clan_chat/iriya.webp', './img/clan_chat/kuuka.webp', './img/clan_chat/tamaki.webp', './img/clan_chat/mihuyu.webp', './img/clan_chat/shizuru.webp', './img/clan_chat/misaki.webp', './img/clan_chat/monika.webp', './img/clan_chat/ayumi.webp', './img/clan_chat/matsuri.webp', './img/clan_chat/akari.webp', './img/clan_chat/miyako.webp',
+				'./img/clan_chat/yuki.webp', './img/clan_chat/nanaka.webp', './img/clan_chat/kasumi.webp', './img/clan_chat/misato.webp', './img/clan_chat/io.webp', './img/clan_chat/rin.webp', './img/clan_chat/ninon.webp', './img/clan_chat/akino.webp', './img/clan_chat/mahiru.webp', './img/clan_chat/tomo.webp', './img/clan_chat/shiori.webp', './img/clan_chat/chika.webp',
+				'./img/clan_chat/makoto.webp', './img/clan_chat/jun.webp', './img/clan_chat/mitsuki.webp', './img/clan_chat/rima.webp', './img/clan_chat/tsumugi.webp', './img/clan_chat/ruka.webp', './img/clan_chat/muimi.webp', './img/clan_chat/sheffi.webp', './img/clan_chat/kaya.webp', './img/clan_chat/inori.webp', './img/clan_chat/homare.webp', './img/clan_chat/rabirisuta.webp',
+				'./img/clan_chat/neneka.webp', './img/clan_chat/christina.webp', './img/clan_chat/kuroe.webp', './img/clan_chat/chieru.webp', './img/clan_chat/yuni.webp',
 			],
 		},
 		'album': {
