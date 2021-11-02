@@ -53,7 +53,7 @@ export default class GuildHouse extends Vue {
 		['./img/guild_house/io.webp', './img/guild_house/misaki.webp', './img/guild_house/suzuna.webp'],
 		['./img/guild_house/monika.webp', './img/guild_house/yuki.webp', './img/guild_house/ninon.webp', './img/guild_house/kuuka.webp', './img/guild_house/ayumi.webp'],
 		['./img/guild_house/yuni.webp', './img/guild_house/kuroe.webp', './img/guild_house/chieru.webp'],
-		['./img/guild_house/kaya.webp', './img/guild_house/inori.webp']
+		['./img/guild_house/homare.webp', './img/guild_house/kaya.webp', './img/guild_house/inori.webp']
 	];
 }
 </script>
