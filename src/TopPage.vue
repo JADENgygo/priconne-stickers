@@ -1,9 +1,7 @@
 <template>
-	<div class="uk-container uk-text-center">
-		<ul class="uk-margin-top uk-list uk-list-disc list">
-			<li><router-link to="/sticker/guild-house">ギルドハウス</router-link></li>
-			<li v-for="(e, i) in engNames"><router-link v-bind:to="'/sticker/' + engNames[i]">{{ japNames[i] }}</router-link></li>
-		</ul>
+	<div class="uk-container uk-text-center uk-margin-top">
+		<p><router-link to="/sticker/guild-house">ギルドハウス</router-link></p>
+		<p v-for="(e, i) in engNames"><router-link v-bind:to="'/sticker/' + engNames[i]">{{ japNames[i] }}</router-link></p>
 	</div>
 </template>
 <script lang="ts">
