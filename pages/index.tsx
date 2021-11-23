@@ -24,10 +24,10 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@JADENgygo" />
-        <meta property="og:url" content="https://princess-connect-stickers.netlify.app" />
+        <meta property="og:url" content="https://priconne-stickers.vercel.app" />
         <meta property="og:title" content="プリコネスタンプ" />
         <meta property="og:description" content="プリコネRのスタンプ集" />
-        <meta property="og:image" content="https://princess-connect-stickers.netlify.app/img/clan_chat/peko.webp" />
+        <meta property="og:image" content="https://priconne-stickers.vercel.app/img/chat/peko.webp" />
         <link rel="icon" href="/img/favicon.png" />
       </Head>
       <div className="text-center">
