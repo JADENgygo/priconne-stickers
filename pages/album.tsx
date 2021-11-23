@@ -32,6 +32,7 @@ const Album: NextPage = () => {
     { name: 'キョウカ', path: '/img/album/kyouka.webp', width: 512, height: 383 },
     { name: 'クウカ', path: '/img/album/kuuka.webp', width: 512, height: 383 },
     { name: 'クウカ (オーエド)', path: '/img/album/kuuka_oedo.webp', width: 512, height: 383 },
+    { name: 'クウカ (ノワール)', path: '/img/album/kuuka_noir.webp', width: 512, height: 383 },
     { name: 'クリスティーナ', path: '/img/album/kurisu.webp', width: 512, height: 383 },
     { name: 'クルミ', path: '/img/album/kurumi.webp', width: 512, height: 383 },
     { name: 'グレア', path: '/img/album/gurea.webp', width: 512, height: 383 },
