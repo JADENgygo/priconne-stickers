@@ -32,13 +32,11 @@ const Home: NextPage = () => {
       </Head>
       <div className="text-center">
       {
-        pageLinks.map(value => {
-          return (
+        pageLinks.map(value => (
             <div className="mb-3" key={ value.path }>
               <Link href={ value.path }><a>{ value.name }</a></Link>
             </div>
-          )
-        })
+        ))
       }
       </div>
     </div>
