@@ -19,14 +19,18 @@ export const pageLinks = [
 export function Header() {
   const router = useRouter();
   return (
-    <div className="container">
-      <div className="text-center fs-3 m-5"><Link href="/"><a className="text-dark title">プリコネスタンプ</a></Link></div>
-      <div>
+    <div>
+      <div className="text-center bg-dark pt-3 pb-3 fs-3">
+        <div className="container">
+          <Link href="/"><a className="text-white title">プリコネスタンプ</a></Link>
+        </div>
+      </div>
+      <div className="container mt-5 mb-5">
         {
           router.pathname !== '/' && (
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb">
-                <li className="breadcrumb-item"><Link href="/"><a>トップ</a></Link></li>
+                <li className="breadcrumb-item"><Link href="/"><a className="link link-dark">トップ</a></Link></li>
                 <li className="breadcrumb-item active">{ pageLinks.find(value => value.path === router.pathname)?.name }</li>
               </ol>
             </nav>
