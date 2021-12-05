@@ -17,10 +17,10 @@ const Bond: NextPage = () => {
   ];
   return (
     <div className="container">
-      <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 text-center">
+      <div className="row gy-3 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 text-center">
       {
         stickers.map(value => (
-          <div className="col mb-3" key={ value.path }>
+          <div className="col" key={ value.path }>
             <div className="mb-1">{ value.name }</div>
             <Image src={ value.path } width={ value.width } height={ value.height } alt={ value.name } />
           </div>

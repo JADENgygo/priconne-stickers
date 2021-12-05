@@ -1,3 +1,11 @@
 .title {
   text-decoration: none;
 }
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

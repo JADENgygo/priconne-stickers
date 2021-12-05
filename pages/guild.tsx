@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
+import React from 'react'
 
 const Guild: NextPage = () => {
   const stickers = [
@@ -154,25 +155,23 @@ const Guild: NextPage = () => {
   ];
 
   return (
-    <div>
+    <div className="container">
+      <div className="row gy-3">
       {
         stickers.map(value => (
-          <div key={ value.name }>
-            <div className="mb-3">{ value.name }</div>
-            <div className="container">
-                <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5">
-                {
-                  value.images.map((v, i) => (
-                      <div className="col mb-3" key={ v.path }>
-                        <Image src={ v.path } width={ v.width } height={ v.height } alt={ value.name + i.toString() } />
-                      </div>
-                  ))
-                }
+          <React.Fragment key={ value.name }>
+            <div className="col-12">{ value.name }</div>
+            {
+              value.images.map((v, i) => (
+                <div className="col-6 col-sm-4 col-md-3 col-lg-2" key={ v.path }>
+                  <Image src={ v.path } width={ v.width } height={ v.height } alt={ value.name + i.toString() } />
                 </div>
-            </div>
-          </div>
+              ))
+            }
+          </React.Fragment>
         ))
       }
+      </div>
     </div>
   )
 }
