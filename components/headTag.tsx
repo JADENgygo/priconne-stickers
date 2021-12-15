@@ -21,8 +21,8 @@ export const HeadTag = () => {
       <meta property="og:url" content="https://priconne-stickers.vercel.app" />
       <meta property="og:title" content="プリコネスタンプ" />
       <meta property="og:description" content="プリコネRのスタンプ集" />
-      <meta property="og:image" content="https://priconne-stickers.vercel.app/img/chat/peko.webp" />
-      <link rel="icon" href="/img/favicon.png" />
+      <meta property="og:image" content="https://priconne-stickers.vercel.app/img/peko.png" />
+      <link rel="icon" href="/img/peko.png" />
     </Head>
   );
 };
