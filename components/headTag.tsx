@@ -5,12 +5,12 @@ export const HeadTag = () => {
     <Head>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7HGQ5Q4Z3"></script>
       <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-M7HGQ5Q4Z3');
-          `
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-M7HGQ5Q4Z3');
+        `
       }} />
       <title>プリコネスタンプ</title>
       <meta charSet="utf-8" />
