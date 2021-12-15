@@ -16,7 +16,7 @@ export const pageLinks = [
   { name: 'エンドレスサマープロデュース', path: '/produce' },
 ];
 
-export function Header() {
+export const Header = () => {
   const router = useRouter();
   return (
     <div>
@@ -38,5 +38,5 @@ export function Header() {
         }
       </div>
     </div>
-  )
-}
+  );
+};
