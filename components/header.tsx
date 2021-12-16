@@ -27,7 +27,7 @@ export const Header = () => {
       </div>
       <div className="container mt-5 mb-5">
         {
-          router.pathname !== '/' && (
+          pageLinks.map(value => value.path).includes(router.pathname) && (
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb">
                 <li className="breadcrumb-item"><Link href="/"><a className="link link-dark">トップ</a></Link></li>
