@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <HeadTag />
       <Header />
       <Component {...pageProps} />
-      <div className="footer"><Footer /></div>
+      <Footer className="footer" />
     </div>
   );
 }
