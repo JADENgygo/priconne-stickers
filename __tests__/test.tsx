@@ -14,10 +14,6 @@ import Rotation, { stickers as rotationStickers } from '../pages/rotation'
 import Shiritori, { stickers as shiritoriStickers } from '../pages/shiritori'
 import Valentine, { stickers as valentineStickers } from '../pages/valentine'
 
-test('test', () => {
-  expect(1).toBe(2);
-});
-
 test('album.tsx', () => {
   render(<Album />);
   for (let e of albumStickers) {
