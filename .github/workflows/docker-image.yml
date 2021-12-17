@@ -12,5 +12,5 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '16'
-    - run: cd priconne-stickers && docker-compose build && docker-compose up -d
+    - run: ls && cd priconne-stickers && docker-compose build && docker-compose up -d
     - run: npm run test
