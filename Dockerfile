@@ -1,4 +1,4 @@
 FROM node:16.13.0-bullseye
-USER node
 WORKDIR /home/node/app
+USER node
 CMD ["npm", "run", "dev"]

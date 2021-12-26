@@ -9,10 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '16'
-    - run: npm install
-    - run: docker-compose build
-    - run: docker-compose up
-    - run: npm run test
+    # - uses: actions/setup-node@v2
+    #   with:
+    #     node-version: '16'
+    - run: ls -la
+    # - run: npm install
+    # - run: docker-compose build
+    # - run: docker-compose up
+    # - run: npm run test
