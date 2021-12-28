@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export const HeadTag = () => {
+export const Head_ = () => {
   return (
     <Head>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7HGQ5Q4Z3"></script>
