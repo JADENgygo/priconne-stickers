@@ -7,13 +7,24 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      # gh
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - uses: actions/checkout@v2
-    # - uses: actions/setup-node@v2
-    #   with:
-    #     node-version: '16'
-    - run: ls -la
-    # - run: npm install
-    # - run: docker-compose build
-    # - run: docker-compose up
-    # - run: npm run test
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - run: |
+        npm install
+        npm run dev &
+    - run: |
+        while [ "$(curl --retry-connrefused -s -o /dev/null -w '%{http_code}' localhost:3000)" != '200' ]; do
+          :
+        done
+    - run: npm test
+    - if: success()
+      run: |
+        message=$(git log --oneline -n 1 | sed -E 's/^\S+ (.+)/\1/')
+        gh pr create --title "${message}" --body "自動生成プルリクエスト" --base master
+        gh pr merge --merge
