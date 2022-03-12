@@ -1,20 +1,20 @@
-import { render, screen } from '@testing-library/react'
-import Album, { stickers as albumStickers } from '../pages/album'
-import Alone, { stickers as aloneStickers } from '../pages/alone'
-import Angel, { stickers as angelStickers } from '../pages/angel'
-import Bond, { stickers as bondStickers } from '../pages/bond'
-import Boss, { stickers as bossStickers } from '../pages/boss'
-import Chat, { stickers as chatStickers } from '../pages/chat'
-import Cheese, { stickers as cheeseStickers } from '../pages/cheese'
-import Guild, { stickers as guildStickers } from '../pages/guild'
-import { pageLinks } from '../components/header'
-import Home from '../pages/index'
-import Produce, { stickers as produceStickers } from '../pages/produce'
-import Rotation, { stickers as rotationStickers } from '../pages/rotation'
-import Shiritori, { stickers as shiritoriStickers } from '../pages/shiritori'
-import Valentine, { stickers as valentineStickers } from '../pages/valentine'
+import { render, screen } from "@testing-library/react";
+import Album, { stickers as albumStickers } from "../pages/album";
+import Alone, { stickers as aloneStickers } from "../pages/alone";
+import Angel, { stickers as angelStickers } from "../pages/angel";
+import Bond, { stickers as bondStickers } from "../pages/bond";
+import Boss, { stickers as bossStickers } from "../pages/boss";
+import Chat, { stickers as chatStickers } from "../pages/chat";
+import Cheese, { stickers as cheeseStickers } from "../pages/cheese";
+import Guild, { stickers as guildStickers } from "../pages/guild";
+import { pageLinks } from "../components/header";
+import Home from "../pages/index";
+import Produce, { stickers as produceStickers } from "../pages/produce";
+import Rotation, { stickers as rotationStickers } from "../pages/rotation";
+import Shiritori, { stickers as shiritoriStickers } from "../pages/shiritori";
+import Valentine, { stickers as valentineStickers } from "../pages/valentine";
 
-test('album.tsx', () => {
+test("album.tsx", () => {
   render(<Album />);
   for (let e of albumStickers) {
     const name = screen.queryByText(e.name);
@@ -24,7 +24,7 @@ test('album.tsx', () => {
   }
 });
 
-test('alone.tsx', () => {
+test("alone.tsx", () => {
   render(<Alone />);
   for (let e of aloneStickers) {
     const name = screen.queryByText(e.name);
@@ -34,7 +34,7 @@ test('alone.tsx', () => {
   }
 });
 
-test('angel.tsx', () => {
+test("angel.tsx", () => {
   render(<Angel />);
   for (let e of angelStickers) {
     const name = screen.queryByText(e.name);
@@ -44,7 +44,7 @@ test('angel.tsx', () => {
   }
 });
 
-test('bond.tsx', () => {
+test("bond.tsx", () => {
   render(<Bond />);
   for (let e of bondStickers) {
     const name = screen.queryByText(e.name);
@@ -54,7 +54,7 @@ test('bond.tsx', () => {
   }
 });
 
-test('boss.tsx', () => {
+test("boss.tsx", () => {
   render(<Boss />);
   for (let e of bossStickers) {
     const name = screen.queryByText(e.name);
@@ -64,7 +64,7 @@ test('boss.tsx', () => {
   }
 });
 
-test('chat.tsx', () => {
+test("chat.tsx", () => {
   render(<Chat />);
   for (let e of chatStickers) {
     const name = screen.queryByText(e.name);
@@ -74,7 +74,7 @@ test('chat.tsx', () => {
   }
 });
 
-test('cheese.tsx', () => {
+test("cheese.tsx", () => {
   render(<Cheese />);
   for (let e of cheeseStickers) {
     const name = screen.queryByText(e.name);
@@ -84,7 +84,7 @@ test('cheese.tsx', () => {
   }
 });
 
-test('guild.tsx', () => {
+test("guild.tsx", () => {
   render(<Guild />);
   for (let e of guildStickers) {
     const name = screen.queryByText(e.name);
@@ -96,7 +96,7 @@ test('guild.tsx', () => {
   }
 });
 
-test('index.tsx', () => {
+test("index.tsx", () => {
   render(<Home />);
   for (let e of pageLinks) {
     const link = screen.queryByText(e.name);
@@ -104,7 +104,7 @@ test('index.tsx', () => {
   }
 });
 
-test('produce.tsx', () => {
+test("produce.tsx", () => {
   render(<Produce />);
   for (let e of produceStickers) {
     const name = screen.queryByText(e.name);
@@ -114,7 +114,7 @@ test('produce.tsx', () => {
   }
 });
 
-test('rotation.tsx', () => {
+test("rotation.tsx", () => {
   render(<Rotation />);
   for (let e of rotationStickers) {
     const name = screen.queryByText(e.name);
@@ -124,7 +124,7 @@ test('rotation.tsx', () => {
   }
 });
 
-test('shiritori.tsx', () => {
+test("shiritori.tsx", () => {
   render(<Shiritori />);
   for (let e of shiritoriStickers) {
     const name = screen.queryByText(e.name);
@@ -134,7 +134,7 @@ test('shiritori.tsx', () => {
   }
 });
 
-test('valentine.tsx', () => {
+test("valentine.tsx", () => {
   render(<Valentine />);
   for (let e of valentineStickers) {
     const name = screen.queryByText(e.name);

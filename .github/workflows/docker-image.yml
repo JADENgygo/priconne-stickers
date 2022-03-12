@@ -2,7 +2,7 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ dev ]
+    branches: [dev]
 
 jobs:
   test:
@@ -11,20 +11,20 @@ jobs:
       # gh
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '16'
-    - run: |
-        npm install
-        npm run dev &
-    - run: |
-        while [ "$(curl --retry-connrefused -s -o /dev/null -w '%{http_code}' localhost:3000)" != '200' ]; do
-          :
-        done
-    - run: npm test
-    - if: success()
-      run: |
-        message=$(git log --oneline -n 1 | sed -E 's/^\S+ (.+)/\1/')
-        gh pr create --title "${message}" --body "自動生成プルリクエスト" --base master
-        gh pr merge --merge
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - run: |
+          npm install
+          npm run dev &
+      - run: |
+          while [ "$(curl --retry-connrefused -s -o /dev/null -w '%{http_code}' localhost:3000)" != '200' ]; do
+            :
+          done
+      - run: npm test
+      - if: success()
+        run: |
+          message=$(git log --oneline -n 1 | sed -E 's/^\S+ (.+)/\1/')
+          gh pr create --title "${message}" --body "自動生成プルリクエスト" --base master
+          gh pr merge --merge
