@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useEffect } from "react"
+import { useEffect } from "react";
 
 const Custom404 = () => {
   const router = useRouter();
