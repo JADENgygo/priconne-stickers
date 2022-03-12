@@ -94,6 +94,12 @@ export const stickers = [
     height: 383,
   },
   { name: "クルミ", path: "/img/album/kurumi.webp", width: 512, height: 383 },
+  {
+    name: "クルミ (ステージ)",
+    path: "/img/album/kurumi_stage.webp",
+    width: 512,
+    height: 383,
+  },
   { name: "グレア", path: "/img/album/gurea.webp", width: 512, height: 383 },
   {
     name: "クレジッタ",
@@ -215,6 +221,12 @@ export const stickers = [
   { name: "ミサキ", path: "/img/album/misaki.webp", width: 512, height: 383 },
   { name: "ミサト", path: "/img/album/misato.webp", width: 512, height: 383 },
   { name: "ミソギ", path: "/img/album/misogi.webp", width: 512, height: 383 },
+  {
+    name: "ミソギ&ミミ&キョウカ",
+    path: "/img/album/misogi_mimi_kyouka.webp",
+    width: 512,
+    height: 383,
+  },
   { name: "ミツキ", path: "/img/album/mitsuki.webp", width: 512, height: 383 },
   {
     name: "ミツキ (オーエド)",
@@ -255,6 +267,12 @@ export const stickers = [
     height: 383,
   },
   { name: "ユニ", path: "/img/album/yuni.webp", width: 512, height: 383 },
+  {
+    name: "ユニ (聖学祭)",
+    path: "/img/album/yuni_seigakusai.webp",
+    width: 512,
+    height: 383,
+  },
   { name: "ヨリ", path: "/img/album/yori.webp", width: 512, height: 383 },
   {
     name: "ヨリ (エンジェル)",
@@ -268,6 +286,7 @@ export const stickers = [
     width: 512,
     height: 383,
   },
+  { name: "ランファ", path: "/img/album/ranpha.webp", width: 512, height: 383 },
   { name: "リノ", path: "/img/album/rino.webp", width: 512, height: 383 },
   {
     name: "リノ (ワンダー)",

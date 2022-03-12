@@ -5,7 +5,7 @@ const Custom404 = () => {
   const router = useRouter();
   useEffect(() => {
     router.replace("/");
-  });
+  }, [router]);
   return null;
 };
 
