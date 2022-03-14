@@ -11,7 +11,7 @@ export const Footer = (props: { className?: string }) => {
           <i className="bi bi-twitter"></i>
         </a>
         <a
-          href="https://princess-connect-portfolio.netlify.app"
+          href="https://priconne-portfolio.netlify.app"
           className="link link-dark"
         >
           プリコネツール
