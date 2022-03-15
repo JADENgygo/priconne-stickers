@@ -219,6 +219,12 @@ export const stickers = [
     height: 383,
   },
   { name: "ミサキ", path: "/img/album/misaki.webp", width: 512, height: 383 },
+  {
+    name: "ミサキ (ステージ)",
+    path: "/img/album/misaki_stage.webp",
+    width: 512,
+    height: 383,
+  },
   { name: "ミサト", path: "/img/album/misato.webp", width: 512, height: 383 },
   { name: "ミソギ", path: "/img/album/misogi.webp", width: 512, height: 383 },
   {
