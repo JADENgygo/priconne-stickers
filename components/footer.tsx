@@ -3,7 +3,7 @@ export const Footer = (props: { className?: string }) => {
     <div
       className={`bg-secondary bg-opacity-25 text-center pt-3 pb-3 ${props.className}`}
     >
-      <div className="pb-3">
+      <div>
         <a
           href="https://twitter.com/@JADENgygo"
           className="me-3 link link-dark"
@@ -12,9 +12,9 @@ export const Footer = (props: { className?: string }) => {
         </a>
         <a
           href="https://priconne-portfolio.vercel.app"
-          className="link link-dark"
+          className="link-dark"
         >
-          プリコネツール
+          闇プリン開発室
         </a>
       </div>
       <div>画像 &copy; Cygames, Inc.</div>
