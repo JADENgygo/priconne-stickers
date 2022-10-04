@@ -33,7 +33,7 @@ export const Header = () => {
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
                 <Link href="/">
-                  <a className="link link-dark">トップ</a>
+                  <a className="link link-light">トップ</a>
                 </Link>
               </li>
               <li className="breadcrumb-item active">
