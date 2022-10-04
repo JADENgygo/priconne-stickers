@@ -1,7 +1,7 @@
 export const Footer = (props: { className?: string }) => {
   return (
     <div
-      className={`bg-dark text-center pt-3 pb-3 ${props.className}`}
+      className={`bg-black text-center pt-3 pb-3 ${props.className}`}
     >
       <div>
         <a

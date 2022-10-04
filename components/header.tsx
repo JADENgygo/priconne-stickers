@@ -20,7 +20,7 @@ export const Header = () => {
   const router = useRouter();
   return (
     <div>
-      <div className="text-center bg-dark pt-3 pb-3 fs-3">
+      <div className="text-center bg-black pt-3 pb-3 fs-3">
         <div className="container">
           <Link href="/">
             <a className="text-white title">プリコネスタンプ</a>
@@ -36,7 +36,7 @@ export const Header = () => {
                   <a className="link link-light">トップ</a>
                 </Link>
               </li>
-              <li className="breadcrumb-item active">
+              <li className="breadcrumb-item active text-white-50">
                 {
                   pageLinks.find((value) => value.path === router.pathname)
                     ?.name
