@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 
 export const stickers = [
   {
@@ -29,7 +28,8 @@ const Valentine: NextPage = () => {
         {stickers.map((value) => (
           <div className="col" key={value.path}>
             <div className="mb-1">{value.name}</div>
-            <Image
+            <img
+              className="img-fluid"
               src={value.path}
               width={value.width}
               height={value.height}

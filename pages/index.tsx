@@ -8,7 +8,7 @@ const Home: NextPage = () => {
       {pageLinks.map((value) => (
         <div className="mb-3" key={value.path}>
           <Link href={value.path}>
-            <a className="link link-dark">{value.name}</a>
+            <a className="link link-light">{value.name}</a>
           </Link>
         </div>
       ))}
