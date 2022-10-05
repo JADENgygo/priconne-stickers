@@ -46,7 +46,7 @@ export const Header = () => {
   return (
     <div className="container">
       <div className="bgsecondary pt-1">
-        <div className="text-end mb-3">ダークモード: <span className="mode" onClick={changeMode}>{ theme === "light" ? "オフ" : "オン" }</span></div>
+        <div className="text-end mb-3">ダークモード: <span className="theme" onClick={changeMode}>{ theme === "light" ? "オフ" : "オン" }</span></div>
         <div className="text-center fs-3">
           <Link href={"/?theme=" + theme}>
             <a className={`title ${theme === "light" ? "link-dark" : "link-light"}`}>プリコネスタンプ</a>
