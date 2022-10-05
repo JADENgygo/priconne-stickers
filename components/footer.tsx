@@ -1,18 +1,21 @@
+import { useTheme } from "../lib/useTheme";
+
 export const Footer = (props: { className?: string }) => {
+  const theme = useTheme();
   return (
     <div
-      className={`bg-black text-center pt-3 pb-3 ${props.className}`}
+      className={`text-center pt-3 pb-3 ${props.className}`}
     >
       <div>
         <a
           href="https://twitter.com/@JADENgygo"
-          className="me-3 link link-dark"
+          className="me-3"
         >
-          <i className="bi bi-twitter text-light"></i>
+          <i className="bi bi-twitter"></i>
         </a>
         <a
-          href="https://priconne-portfolio.vercel.app"
-          className="link-light link"
+          href={"https://priconne-portfolio.vercel.app?theme=" + theme}
+          className={`link ${theme === "light" ? "link-dark" : "link-light"}`}
         >
           闇プリン開発室
         </a>
