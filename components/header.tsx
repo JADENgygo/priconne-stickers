@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useTheme } from "../lib/useTheme";
 
 export const pageLinks = [
   { name: "ギルドハウス", path: "/guild" },
@@ -19,13 +20,9 @@ export const pageLinks = [
 
 export const Header = () => {
   const router = useRouter();
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const theme = useTheme();
 
   useEffect(() => {
-    const theme = router.query.theme as string;
-    if (theme !== "light" && theme !== "dark") {
-      return;
-    }
     const classes = document.body.classList;
     if (theme === "light") {
       classes.remove("bg-dark");
@@ -35,8 +32,7 @@ export const Header = () => {
       classes.add("bg-dark");
       classes.add("text-light");
     }
-    setTheme(theme);
-  }, [router]);
+  }, [theme]);
 
   const changeMode = () => {
     const theme = router.query.theme as string;
