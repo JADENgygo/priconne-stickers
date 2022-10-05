@@ -35,12 +35,7 @@ export const Header = () => {
   }, [theme]);
 
   const changeMode = () => {
-    const theme = router.query.theme as string;
-    if (theme === "dark") {
-      router.push(router.pathname + "?theme=light");
-      return;
-    }
-    router.push(router.pathname + "?theme=dark");
+    router.push(router.pathname + `?theme=${theme === "light" ? "dark" : "light"}`);
   };
 
   return (
