@@ -21,3 +21,8 @@
 .link:hover {
   text-decoration: underline;
 }
+
+.mode:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
