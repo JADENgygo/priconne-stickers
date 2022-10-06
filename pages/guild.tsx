@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/future/image";
 import React from "react";
 
 export const stickers = [
@@ -161,7 +162,7 @@ const Guild: NextPage = () => {
             <div className="col-12">{value.name}</div>
             {value.images.map((v, i) => (
               <div className="col-6 col-sm-4 col-md-3 col-lg-2" key={v.path}>
-                <img
+                <Image
                   className="img-fluid"
                   src={v.path}
                   width={v.width}
