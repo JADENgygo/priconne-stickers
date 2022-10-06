@@ -18,6 +18,7 @@ export default function Document() {
         <link rel="icon" href="/img/peko.png" />
       </Head>
       <body>
+        <script src="/script.js" async />
         <Main />
         <NextScript />
       </body>

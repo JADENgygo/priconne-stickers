@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { useTheme } from "../lib/useTheme";
 
 export const pageLinks = [
   { name: "ギルドハウス", path: "/guild" },
@@ -20,31 +19,28 @@ export const pageLinks = [
 
 export const Header = () => {
   const router = useRouter();
-  const theme = useTheme();
+  const [theme, setTheme] = useState<"light" | "dark">("light");
 
   useEffect(() => {
-    const classes = document.body.classList;
-    if (theme === "light") {
-      classes.remove("bg-dark");
-      classes.remove("text-light");
-    }
-    else {
-      classes.add("bg-dark");
-      classes.add("text-light");
-    }
-  }, [theme]);
+    const theme = localStorage.getItem("theme");
+    setTheme(theme === "dark" ? "dark" : "light");
+  }, []);
 
   const changeTheme = () => {
-    router.push(router.pathname + `?theme=${theme === "light" ? "dark" : "light"}`);
+    document.querySelector('html')?.classList.toggle('dark');
+    const theme = localStorage.getItem('theme');
+    localStorage.setItem("theme", theme === "dark" ? "light" : "dark");
+    setTheme(theme === "dark" ? "light" : "dark");
+    window.dispatchEvent(new Event("storage"));
   };
 
   return (
     <div className="container">
       <div className="bgsecondary pt-1">
-        <div className="text-end mb-3">ダークモード: <span className="theme" onClick={changeTheme}>{ theme === "light" ? "オフ" : "オン" }</span></div>
+        <div className="text-end mb-3 link" onClick={changeTheme}>ダークモード: { theme === "light" ? "オフ" : "オン" }</div>
         <div className="text-center fs-3">
-          <Link href={"/?theme=" + theme}>
-            <a className={`title ${theme === "light" ? "link-dark" : "link-light"}`}>プリコネスタンプ</a>
+          <Link href={"/"}>
+            <a className="title">プリコネスタンプ</a>
           </Link>
         </div>
       </div>
@@ -53,11 +49,11 @@ export const Header = () => {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <Link href={"/?theme=" + theme}>
-                  <a className={`link ${theme === "light" ? "link-dark" : "link-light"}`}>トップ</a>
+                <Link href={"/"}>
+                  <a className="link">トップ</a>
                 </Link>
               </li>
-              <li className={`breadcrumb-item active ${theme === "light" ? "" : "text-white-50"}`}>
+              <li className="breadcrumb-item active">
                 {
                   pageLinks.find((value) => value.path === router.pathname)
                     ?.name

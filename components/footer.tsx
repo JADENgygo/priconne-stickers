@@ -1,10 +1,7 @@
-import { useTheme } from "../lib/useTheme";
-
-export const Footer = (props: { className?: string }) => {
-  const theme = useTheme();
+export const Footer = () => {
   return (
-    <div
-      className={`text-center pt-3 pb-3 ${props.className}`}
+    <footer
+      className="text-center pt-3 pb-3"
     >
       <div>
         <a
@@ -14,13 +11,13 @@ export const Footer = (props: { className?: string }) => {
           <i className="bi bi-twitter"></i>
         </a>
         <a
-          href={"https://priconne-portfolio.vercel.app?theme=" + theme}
-          className={`link ${theme === "light" ? "link-dark" : "link-light"}`}
+          href="https://priconne-portfolio.vercel.app"
+          className="link"
         >
           闇プリン開発室
         </a>
       </div>
       <div>画像 &copy; Cygames, Inc.</div>
-    </div>
+    </footer>
   );
 };
