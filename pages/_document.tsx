@@ -12,7 +12,6 @@ export default function Document() {
         <meta property="og:title" content="プリコネスタンプ" />
         <meta property="og:description" content="プリコネRのスタンプ集" />
         <meta property="og:url" content="https://priconne-stickers.vercel.app" />
-        <meta property="og:site_name" content="プリコネスタンプ" />
         <meta
           property="og:image"
           content="https://priconne-stickers.vercel.app/img/card.webp"
