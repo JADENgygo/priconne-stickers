@@ -13,7 +13,6 @@ import Produce, { stickers as produceStickers } from "../pages/produce";
 import Rotation, { stickers as rotationStickers } from "../pages/rotation";
 import Shiritori, { stickers as shiritoriStickers } from "../pages/shiritori";
 import Valentine, { stickers as valentineStickers } from "../pages/valentine";
-import { useRouter } from "next/router";
 
 test("album.tsx", () => {
   render(<Album />);
@@ -97,14 +96,6 @@ test("guild.tsx", () => {
   }
 });
 
-jest.mock("next/router", () => ({
-  useRouter: jest.fn(),
-}));
-(useRouter as jest.Mock).mockImplementation(() => ({
-  query: {
-    theme: "light"
-  }
-}));
 test("index.tsx", () => {
   render(<Home />);
   for (let e of pageLinks) {
