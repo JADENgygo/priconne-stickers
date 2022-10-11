@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { parseCookies, setCookie } from "nookies";
 
 export const pageLinks = [
   { name: "ギルドハウス", path: "/guild" },
@@ -19,25 +20,25 @@ export const pageLinks = [
 
 export const Header = () => {
   const router = useRouter();
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [theme, setTheme] = useState<"" | "light" | "dark">("");
 
   useEffect(() => {
-    const theme = localStorage.getItem("theme");
-    setTheme(theme === "dark" ? "dark" : "light");
+    const cookie = parseCookies();
+    setTheme(cookie.theme === "dark" ? "dark" : "light");
   }, []);
 
   const changeTheme = () => {
-    document.querySelector('html')?.classList.toggle('dark');
-    const theme = localStorage.getItem('theme');
-    localStorage.setItem("theme", theme === "dark" ? "light" : "dark");
-    setTheme(theme === "dark" ? "light" : "dark");
-    window.dispatchEvent(new Event("storage"));
+    const cookie = parseCookies();
+    setCookie(null, "theme", cookie.theme === "dark" ? "light" : "dark");
+    router.reload();
   };
 
   return (
     <div className="container">
       <div className="bgsecondary pt-1">
-        <div className="text-end mb-3"><span className="link" onClick={changeTheme}>ダークモード: { theme === "light" ? "オフ" : "オン" }</span></div>
+        <div className="text-end mb-3" style={{visibility: theme === "" ? "hidden" : "visible"}}>
+          <span className="link" onClick={changeTheme}>ダークモード: { theme === "light" ? "オフ" : "オン" }</span>
+          </div>
         <div className="text-center fs-3">
           <Link href={"/"}>
             <a className="title">プリコネスタンプ</a>

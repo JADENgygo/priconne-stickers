@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/future/image";
+import { GetServerSideProps } from "next";
 
 export const stickers = [
   { name: "アオイ", path: "/img/album/aoi.webp", width: 512, height: 383 },
@@ -347,3 +348,7 @@ const Album: NextPage = () => {
 };
 
 export default Album;
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  return { props: {}};
+}

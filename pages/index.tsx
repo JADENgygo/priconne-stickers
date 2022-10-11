@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Link from "next/link";
 import { pageLinks } from "../components/header";
+import { GetServerSideProps } from "next";
 
 const Home: NextPage = () => {
   return (
@@ -17,3 +18,7 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  return { props: {}};
+}

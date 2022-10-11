@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/future/image";
+import { GetServerSideProps } from "next";
 
 export const stickers = [
   {
@@ -216,3 +217,7 @@ const Boss: NextPage = () => {
 };
 
 export default Boss;
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  return { props: {}};
+}
