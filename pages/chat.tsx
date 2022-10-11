@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/future/image";
+import { GetServerSideProps } from "next";
 
 export const stickers = [
   { name: "ペコリーヌ", path: "/img/chat/peko.webp", width: 120, height: 100 },
@@ -101,3 +102,7 @@ const Chat: NextPage = () => {
 };
 
 export default Chat;
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  return { props: {}};
+}

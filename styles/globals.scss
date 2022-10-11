@@ -31,13 +31,10 @@ a, a:hover {
 }
 
 .dark {
-  filter: invert(1) hue-rotate(180deg);
+  background-color: $dark;
+  color: $light;
 
-  body {
-    background-color: $gray-300;
-  }
-
-  img {
-    filter: invert(1) hue-rotate(180deg);
+  a, a:hover {
+    color: $light;
   }
 }

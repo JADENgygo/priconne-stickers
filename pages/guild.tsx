@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Image from "next/future/image";
 import React from "react";
+import { GetServerSideProps } from "next";
 
 export const stickers = [
   {
@@ -179,3 +180,7 @@ const Guild: NextPage = () => {
 };
 
 export default Guild;
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  return { props: {}};
+}

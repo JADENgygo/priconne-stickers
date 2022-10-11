@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/future/image";
+import { GetServerSideProps } from "next";
 
 export const stickers = [
   {
@@ -131,3 +132,7 @@ const Rotation: NextPage = () => {
 };
 
 export default Rotation;
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  return { props: {}};
+}
