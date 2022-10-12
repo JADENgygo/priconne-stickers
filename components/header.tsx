@@ -29,7 +29,10 @@ export const Header = () => {
 
   const changeTheme = () => {
     const cookie = parseCookies();
-    setCookie(null, "theme", cookie.theme === "dark" ? "light" : "dark");
+    setCookie(null, "theme", cookie.theme === "dark" ? "light" : "dark", {
+      maxAge: 60 * 60 * 24 * 30 * 12 * 1,
+      path: "/"
+    });
     router.reload();
   };
 

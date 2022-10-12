@@ -8,12 +8,10 @@ class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
     const cookie = nookies.get(ctx);
     MyDocument.theme = cookie.theme === "dark" ? "dark" : "light";
-    if (cookie.theme === undefined) {
-      nookies.set(ctx, "theme", "light", {
-        maxAge: 60 * 60 * 24 * 30 * 12 * 1,
-        path: "/"
-      });
-    }
+    nookies.set(ctx, "theme", MyDocument.theme, {
+      maxAge: 60 * 60 * 24 * 30 * 12 * 1,
+      path: "/"
+    });
     const initialProps = await Document.getInitialProps(ctx);
     return initialProps;
   }
